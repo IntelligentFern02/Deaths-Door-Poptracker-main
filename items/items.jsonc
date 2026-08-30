@@ -1,0 +1,1247 @@
+[
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
+  {
+    "name": "Life Seeds",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": false,
+    "initial_stage_idx": 0,
+    "stages": [//This is gross, I'm sorry.
+      {
+        "img": "images/items/Seed.png",
+        "img_mods": "overlay|/images/numberoverlays/0.png, @disabled",
+        "codes": "SEED",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/1.png",
+        "codes": "Seed1",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/2.png",
+        "codes": "Seed2",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/3.png",
+        "codes": "Seed3",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/4.png",
+        "codes": "Seed4",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/5.png",
+        "codes": "Seed5",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/6.png",
+        "codes": "Seed6",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/7.png",
+        "codes": "Seed7",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/8.png",
+        "codes": "Seed8",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/9.png",
+        "codes": "Seed9",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/10.png",
+        "codes": "Seed10",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/11.png",
+        "codes": "Seed11",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/12.png",
+        "codes": "Seed12",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/13.png",
+        "codes": "Seed13",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/14.png",
+        "codes": "Seed14",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/15.png",
+        "codes": "Seed15",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/16.png",
+        "codes": "Seed16",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/17.png",
+        "codes": "Seed17",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/18.png",
+        "codes": "Seed18",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/19.png",
+        "codes": "Seed19",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/20.png",
+        "codes": "Seed20",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/21.png",
+        "codes": "Seed21",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/22.png",
+        "codes": "Seed22",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/23.png",
+        "codes": "Seed23",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/24.png",
+        "codes": "Seed24",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/25.png",
+        "codes": "Seed25",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/26.png",
+        "codes": "Seed26",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/27.png",
+        "codes": "Seed27",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/28.png",
+        "codes": "Seed28",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/29.png",
+        "codes": "Seed29",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/30.png",
+        "codes": "Seed30",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/31.png",
+        "codes": "Seed31",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/32.png",
+        "codes": "Seed32",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/33.png",
+        "codes": "Seed33",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/34.png",
+        "codes": "Seed34",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/35.png",
+        "codes": "Seed35",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/1.png",
+        "codes": "Seed1",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/36.png",
+        "codes": "Seed36",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/37.png",
+        "codes": "Seed37",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/38.png",
+        "codes": "Seed38",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/39.png",
+        "codes": "Seed39",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/40.png",
+        "codes": "Seed40",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/41.png",
+        "codes": "Seed41",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/42.png",
+        "codes": "Seed42",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/43.png",
+        "codes": "Seed43",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/44.png",
+        "codes": "Seed44",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/45.png",
+        "codes": "Seed45",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/46.png",
+        "codes": "Seed46",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/47.png",
+        "codes": "Seed47",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/48.png",
+        "codes": "Seed48",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/49.png",
+        "codes": "Seed49",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/SEED.png",
+        "img_mods": "overlay|/images/numberoverlays/50.png",
+        "codes": "Seed50",
+        "inherit_codes": false
+      }
+    ]
+  },
+  //SPELLS =============================================================
+  {
+    "name": "fire",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/fire.png",
+        "codes": "fire",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/fire2.png",
+        "codes": "fire2",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "bomb",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/bomb.png",
+        "codes": "bomb",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/bomb2.png",
+        "codes": "bomb2",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "hookshot",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/hookshot.png",
+        "codes": "hookshot",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/hookshot2.png",
+        "codes": "hookshot2",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Arrow",
+    "type": "toggle",
+    "img": "images/items/Arrow2.png",
+    "codes": "arrow"
+  },
+  //WEAPONS =============================================================
+  {
+    "name": "Reaper's Sword",
+    "type": "toggle",
+    "img": "images/items/sword.png",
+    "codes": "SWORD"
+  },
+  {
+    "name": "Thunder Hammer",
+    "type": "toggle",
+    "img": "images/items/ThunderHammer.png",
+    "codes": "THUNDER_HAMMER"
+  },
+  {
+    "name": "Rogue Daggers",
+    "type": "toggle",
+    "img": "images/items/Daggers.png",
+    "codes": "ROGUE_DAGGERS"
+  },
+  {
+    "name": "Reaper's Greatsword",
+    "type": "toggle",
+    "img": "images/items/Greatsword.png",
+    "codes": "REAPERS_GREATSWORD"
+  },
+  {
+    "name": "Umbrella",
+    "type": "toggle",
+    "img": "images/items/Umbrella.png",
+    "codes": "DISCARDED_UMBRELLA"
+  },
+  //SHARDS =============================================================
+  {
+    "name": "Vitality Shards",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/VitalityShard.png",
+        "img_mods": "overlay|/images/numberoverlays/0.png, @disabled",
+        "codes": "Vitality_Shard"
+      },
+      {
+        "img": "images/items/VitalityShard.png",
+        "img_mods": "overlay|/images/numberoverlays/1.png",
+        "codes": "VitalityShard1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/VitalityShard.png",
+        "img_mods": "overlay|/images/numberoverlays/2.png",
+        "codes": "VitalityShard2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/VitalityShard.png",
+        "img_mods": "overlay|/images/numberoverlays/3.png",
+        "codes": "VitalityShard3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/VitalityShard.png",
+        "img_mods": "overlay|/images/numberoverlays/4.png",
+        "codes": "VitalityShard4",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/VitalityShard.png",
+        "img_mods": "overlay|/images/numberoverlays/5.png",
+        "codes": "VitalityShard5",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/VitalityShard.png",
+        "img_mods": "overlay|/images/numberoverlays/6.png",
+        "codes": "VitalityShard6",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/VitalityShard.png",
+        "img_mods": "overlay|/images/numberoverlays/7.png",
+        "codes": "VitalityShard7",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/VitalityShard.png",
+        "img_mods": "overlay|/images/numberoverlays/8.png",
+        "codes": "VitalityShard8",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Magic Shards",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/MagicShard.png",
+        "img_mods": "overlay|/images/numberoverlays/0.png, @disabled",
+        "codes": "MagicShard0"
+      },
+      {
+        "img": "images/items/MagicShard.png",
+        "img_mods": "overlay|/images/numberoverlays/1.png",
+        "codes": "MagicShard1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/MagicShard.png",
+        "img_mods": "overlay|/images/numberoverlays/2.png",
+        "codes": "MagicShard2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/MagicShard.png",
+        "img_mods": "overlay|/images/numberoverlays/3.png",
+        "codes": "MagicShard3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/MagicShard.png",
+        "img_mods": "overlay|/images/numberoverlays/4.png",
+        "codes": "MagicShard4",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/MagicShard.png",
+        "img_mods": "overlay|/images/numberoverlays/5.png",
+        "codes": "MagicShard5",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/MagicShard.png",
+        "img_mods": "overlay|/images/numberoverlays/6.png",
+        "codes": "MagicShard6",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/MagicShard.png",
+        "img_mods": "overlay|/images/numberoverlays/7.png",
+        "codes": "MagicShard7",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/MagicShard.png",
+        "img_mods": "overlay|/images/numberoverlays/8.png",
+        "codes": "MagicShard8",
+        "inherit_codes": true
+      }
+    ]
+  },
+  //SHINIES =============================================================
+  {
+    "name": "Engagement Ring",
+    "type": "toggle",
+    "img": "images/items/ring.png",
+    "codes": "ENGAGEMENT_RING"
+  },
+  {
+    "name": "Old Compass",
+    "type": "toggle",
+    "img": "images/items/Compass.png",
+    "codes": "OLD_COMPASS"
+  },
+  {
+    "name": "Incense",
+    "type": "toggle",
+    "img": "images/items/incense.png",
+    "codes": "INCENSE"
+  },
+  {
+    "name": "Undying Blossom",
+    "type": "toggle",
+    "img": "images/items/blossom.png",
+    "codes": "UNDYING_BLOSSOM"
+  },
+  {
+    "name": "Old Photograph",
+    "type": "toggle",
+    "img": "images/items/oldphoto.png",
+    "codes": "OLD_PHOTOGRAPH"
+  },
+  {
+    "name": "Sludge Filled Urn",
+    "type": "toggle",
+    "img": "images/items/sludgeurn.png",
+    "codes": "SLUDGE_FILLED_URN"
+  },
+  {
+    "name": "Token of Death",
+    "type": "toggle",
+    "img": "images/items/tokenofdeath.png",
+    "codes": "TOKEN_OF_DEATH"
+  },
+  {
+    "name": "Rusty Garden Trowel",
+    "type": "toggle",
+    "img": "images/items/trowel.png",
+    "codes": "RUSTY_GARDEN_TROWEL"
+  },
+  {
+    "name": "Captain's Log",
+    "type": "toggle",
+    "img": "images/items/captainslog.png",
+    "codes": "CAPTAINS_LOG"
+  },
+  {
+    "name": "Giant Arrowhead",
+    "type": "toggle",
+    "img": "images/items/arrowhead.png",
+    "codes": "GIANT_ARROWHEAD"
+  },
+  {
+    "name": "Malformed Seed",
+    "type": "toggle",
+    "img": "images/items/corruptedseed.png",
+    "codes": "MALFORMED_SEED"
+  },
+  {
+    "name": "Corrupted Antler",
+    "type": "toggle",
+    "img": "images/items/corruptedantler.png",
+    "codes": "CORRUPTED_ANTLER"
+  },
+  {
+    "name": "Magical Forest Horn",
+    "type": "toggle",
+    "img": "images/items/foresthorn.png",
+    "codes": "MAGICAL_FOREST_HORN"
+  },
+  {
+    "name": "Ancient Crown",
+    "type": "toggle",
+    "img": "images/items/crown.png",
+    "codes": "ANCIENT_CROWN"
+  },
+  {
+    "name": "Grunt's Old Mask",
+    "type": "toggle",
+    "img": "images/items/gruntmask.png",
+    "codes": "GRUNTS_OLD_MASK"
+  },
+  {
+    "name": "Ancient Door Scale Model",
+    "type": "toggle",
+    "img": "images/items/ancientdoor.png",
+    "codes": "ANCIENT_DOOR_SCALE_MODEL"
+  },
+  {
+    "name": "Modern Door Scale Model",
+    "type": "toggle",
+    "img": "images/items/moderndoor.png",
+    "codes": "MODERN_DOOR_SCALE_MODEL"
+  },
+  {
+    "name": "Rusty Belltower Key",
+    "type": "toggle",
+    "img": "images/items/belltowerkey.png",
+    "codes": "RUSTY_BELLTOWER_KEY"
+  },
+  {
+    "name": "Surveillance Device",
+    "type": "toggle",
+    "img": "images/items/surveillancedevice.png",
+    "codes": "SURVEILLANCE_DEVICE"
+  },
+  {
+    "name": "Shiny Medallion",
+    "type": "toggle",
+    "img": "images/items/shinymedallion.png",
+    "codes": "SHINY_MEDALLION"
+  },
+  {
+    "name": "Ink-covered Teddy Bear",
+    "type": "toggle",
+    "img": "images/items/teddybear.png",
+    "codes": "INK_COVERED_TEDDY_BEAR"
+  },
+  {
+    "name": "Death's Contract",
+    "type": "toggle",
+    "img": "images/items/deathscontract.png",
+    "codes": "DEATHS_CONTRACT"
+  },
+  {
+    "name": "Makeshift Soul Key",
+    "type": "toggle",
+    "img": "images/items/soulkey.png",
+    "codes": "MAKESHIFT_SOUL_KEY"
+  },
+  {
+    "name": "Mysterious Locket",
+    "type": "toggle",
+    "img": "images/items/locket.png",
+    "codes": "MYSTERIOUS_LOCKET"
+  },
+  //TABLETS =============================================================
+  {
+    "name": "Blue Tablet",
+    "type": "toggle",
+    "img": "images/items/BlueTablet.png",
+    "codes": "BLUE_ANCIENT_TABLET_OF_KNOWLEDGE"
+  },
+  {
+    "name": "Cyan Tablet",
+    "type": "toggle",
+    "img": "images/items/CyanTablet.png",
+    "codes": "CYAN_ANCIENT_TABLET_OF_KNOWLEDGE"
+  },
+  {
+    "name": "Green Tablet",
+    "type": "toggle",
+    "img": "images/items/GreenTablet.png",
+    "codes": "GREEN_ANCIENT_TABLET_OF_KNOWLEDGE"
+  },
+  {
+    "name": "Pink Tablet",
+    "type": "toggle",
+    "img": "images/items/PinkTablet.png",
+    "codes": "PINK_ANCIENT_TABLET_OF_KNOWLEDGE"
+  },
+  {
+    "name": "Purple Tablet",
+    "type": "toggle",
+    "img": "images/items/PurpleTablet.png",
+    "codes": "PURPLE_ANCIENT_TABLET_OF_KNOWLEDGE"
+  },
+  {
+    "name": "Red Tablet",
+    "type": "toggle",
+    "img": "images/items/RedTablet.png",
+    "codes": "RED_ANCIENT_TABLET_OF_KNOWLEDGE"
+  },
+  {
+    "name": "Yellow Tablet",
+    "type": "toggle",
+    "img": "images/items/YellowTablet.png",
+    "codes": "YELLOW_ANCIENT_TABLET_OF_KNOWLEDGE"
+  },
+  //GIANT SOULS =============================================================
+  {
+    "name": "arrow",
+    "type": "toggle",
+    "img": "images/items/Arrow2.png",
+    "codes": "BOW"
+  },
+  {
+    "name": "betty",
+    "type": "toggle",
+    "img": "images/items/betty.png",
+    "codes": "GIANT_SOUL_OF_BETTY"
+  },
+  {
+    "name": "frogking",
+    "type": "toggle",
+    "img": "images/items/FrogKing.png",
+    "codes": "GIANT_SOUL_OF_THE_FROG_KING"
+  },
+  {
+    "name": "grandma",
+    "type": "toggle",
+    "img": "images/items/Grandma.png",
+    "codes": "GIANT_SOUL_OF_THE_URN_WITCH"
+  },
+  //CROWS =============================================================
+  {
+    "name": "CROW_MANOR_AFTER_TORCH_PUZZLE",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "CROW_MANOR_AFTER_TORCH_PUZZLE"
+  },
+  {
+    "name": "CROW_MANOR_IMP_LOFT",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "CROW_MANOR_IMP_LOFT"
+  },
+  {
+    "name": "CROW_MANOR_LIBRARY",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "CROW_MANOR_LIBRARY"
+  },
+  {
+    "name": "CROW_MANOR_BEDROOM",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "CROW_MANOR_BEDROOM"
+  },
+  {
+    "name": "CROW_DUNGEON_HALL",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "CROW_DUNGEON_HALL"
+  },
+  {
+    "name": "CROW_DUNGEON_WATER_ARENA",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "CROW_DUNGEON_WATER_ARENA"
+  },
+  {
+    "name": "CROW_DUNGEON_COBWEB",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "CROW_DUNGEON_COBWEB"
+  },
+  {
+    "name": "CROW_DUNGEON_RIGHTMOST",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "CROW_DUNGEON_RIGHTMOST"
+  },  
+  {
+    "name": "CROW_LOCKSTONE_EAST",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "CROW_LOCKSTONE_EAST"
+  },
+  {
+    "name": "CROW_LOCKSTONE_WEST",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "CROW_LOCKSTONE_WEST"
+  },
+  {
+    "name": "CROW_LOCKSTONE_WEST_LOCKED",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "CROW_LOCKSTONE_WEST_LOCKED"
+  },
+  {
+    "name": "CROW_LOCKSTONE_SOUTH_WEST",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "CROW_LOCKSTONE_SOUTH_WEST"
+  },
+  //LEVERS =================================================================
+  {
+    "name": "LEVER_BOMB_EXIT",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_BOMB_EXIT"
+  },
+  {
+    "name": "LEVER_CEMETERY_SEWER",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_CEMETERY_SEWER"
+  },
+  {
+    "name": "LEVER_GUARDIAN_OF_THE_DOOR_ACCESS",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_GUARDIAN_OF_THE_DOOR_ACCESS"
+  },
+  {
+    "name": "LEVER_CEMETERY_SHORTCUT_TO_EAST_TREE",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_CEMETERY_SHORTCUT_TO_EAST_TREE"
+  },
+  {
+    "name": "LEVER_CEMETERY_EAST_TREE",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_CEMETERY_EAST_TREE"
+  },
+  {
+    "name": "LEVER_CATACOMBS_TOWER",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_CATACOMBS_TOWER"
+  },
+  {
+    "name": "LEVER_CEMETERY_EXIT_TO_ESTATE",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_CEMETERY_EXIT_TO_ESTATE"
+  },
+  {
+    "name": "LEVER_CATACOMBS_EXIT",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_CATACOMBS_EXIT"
+  },
+  {
+    "name": "LEVER_HOOKSHOT_SILENT_SERVANT",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_HOOKSHOT_SILENT_SERVANT"
+  },
+  {
+    "name": "LEVER_SAILOR_TURNCAM_UPPER",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_SAILOR_TURNCAM_UPPER"
+  },
+  {
+    "name": "LEVER_SAILOR_TURNCAM_LOWER",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_SAILOR_TURNCAM_LOWER"
+  },
+  {
+    "name": "LEVER_SAILOR_GREATSWORD_GATE",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_SAILOR_GREATSWORD_GATE"
+  },
+  {
+    "name": "LEVER_LOCKSTONE_EAST_START_SHORTCUT",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_LOCKSTONE_EAST_START_SHORTCUT"
+  },
+  {
+    "name": "LEVER_LOCKSTONE_ENTRANCE",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_LOCKSTONE_ENTRANCE"
+  },
+  {
+    "name": "LEVER_LOCKSTONE_EAST_LOWER",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_LOCKSTONE_EAST_LOWER"
+  },
+  {
+    "name": "LEVER_LOCKSTONE_UPPER_SHORTCUT",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_LOCKSTONE_UPPER_SHORTCUT"
+  },
+  {
+    "name": "LEVER_LOCKSTONE_DUAL_LASER_PUZZLE",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_LOCKSTONE_DUAL_LASER_PUZZLE"
+  },
+  {
+    "name": "LEVER_LOCKSTONE_TRACKING_BEAM_PUZZLE",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_LOCKSTONE_TRACKING_BEAM_PUZZLE"
+  },
+  {
+    "name": "LEVER_LOCKSTONE_VERTICAL_LASER_PUZZLE",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_LOCKSTONE_VERTICAL_LASER_PUZZLE"
+  },
+  {
+    "name": "LEVER_LOCKSTONE_NORTH_PUZZLE",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_LOCKSTONE_NORTH_PUZZLE"
+  },
+  {
+    "name": "LEVER_LOCKSTONE_SHRINE",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_LOCKSTONE_SHRINE"
+  },
+  {
+    "name": "LEVER_LOCKSTONE_HOOKSHOT_PUZZLE",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_LOCKSTONE_HOOKSHOT_PUZZLE"
+  },
+  {
+    "name": "LEVER_LOCKSTONE_UPPER_PUZZLE",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_LOCKSTONE_UPPER_PUZZLE"
+  },
+  {
+    "name": "LEVER_LOCKSTONE_UPPER_DUAL_LASER_PUZZLE",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_LOCKSTONE_UPPER_DUAL_LASER_PUZZLE"
+  },
+  {
+    "name": "LEVER_WATCHTOWERS_BEFORE_ICE_ARENA",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_WATCHTOWERS_BEFORE_ICE_ARENA"
+  },
+  {
+    "name": "LEVER_WATCHTOWERS_AFTER_ICE_SKATING",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_WATCHTOWERS_AFTER_ICE_SKATING"
+  },
+  {
+    "name": "LEVER_WATCHTOWERS_AFTER_BOOMERS",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_WATCHTOWERS_AFTER_BOOMERS"
+  },
+  {
+    "name": "LEVER_RUINS_SETTLEMENT_GATE",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_RUINS_SETTLEMENT_GATE"
+  },
+  {
+    "name": "LEVER_RUINS_UPPER_DUNGEON_ENTRANCE",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_RUINS_UPPER_DUNGEON_ENTRANCE"
+  },
+  {
+    "name": "LEVER_RUINS_LADDER_LEFT_OF_LORD_OF_DOORS_ARENA",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_RUINS_LADDER_LEFT_OF_LORD_OF_DOORS_ARENA"
+  },
+  {
+    "name": "LEVER_RUINS_ENTRANCE_LADDER_SHORTCUT",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_RUINS_ENTRANCE_LADDER_SHORTCUT"
+  },
+  {
+    "name": "LEVER_RUINS_MAIN_GATE",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_RUINS_MAIN_GATE"
+  },
+  {
+    "name": "LEVER_DUNGEON_ENTRANCE_RIGHT_GATE",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_DUNGEON_ENTRANCE_RIGHT_GATE"
+  },
+  {
+    "name": "LEVER_DUNGEON_ENTRANCE_LEFT_GATE",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_DUNGEON_ENTRANCE_LEFT_GATE"
+  },
+  {
+    "name": "LEVER_DUNGEON_ABOVE_RIGHTMOST_CROW",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_DUNGEON_ABOVE_RIGHTMOST_CROW"
+  },
+  {
+    "name": "LEVER_FORTRESS_BOMB",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_FORTRESS_BOMB"
+  },
+  {
+    "name": "LEVER_FORTRESS_MAIN_GATE",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_FORTRESS_MAIN_GATE"
+  },
+  {
+    "name": "LEVER_FORTRESS_CENTRAL_SHORTCUT",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_FORTRESS_CENTRAL_SHORTCUT"
+  },
+  {
+    "name": "LEVER_FORTRESS_STATUE",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_FORTRESS_STATUE"
+  },
+  {
+    "name": "LEVER_FORTRESS_WATCHTOWER_LOWER",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_FORTRESS_WATCHTOWER_LOWER"
+  },
+  {
+    "name": "LEVER_FORTRESS_BRIDGE",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_FORTRESS_BRIDGE"
+  },
+  {
+    "name": "LEVER_FORTRESS_PRE_MAIN_GATE",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_FORTRESS_PRE_MAIN_GATE"
+  },
+  {
+    "name": "LEVER_FORTRESS_WATCHTOWER_UPPER",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_FORTRESS_WATCHTOWER_UPPER"
+  },
+  {
+    "name": "LEVER_FORTRESS_NORTH_WEST",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_FORTRESS_NORTH_WEST"
+  },
+  {
+    "name": "LEVER_ESTATE_ELEVATOR_LEFT",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_ESTATE_ELEVATOR_LEFT"
+  },
+  {
+    "name": "LEVER_ESTATE_ELEVATOR_RIGHT",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_ESTATE_ELEVATOR_RIGHT"
+  },
+  {
+    "name": "LEVER_GARDEN_OF_LOVE",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_GARDEN_OF_LOVE"
+  },
+  {
+    "name": "LEVER_GARDEN_OF_LIFE_END",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_GARDEN_OF_LIFE_END"
+  },
+  {
+    "name": "LEVER_GARDEN_OF_PEACE",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_GARDEN_OF_PEACE"
+  },
+  {
+    "name": "LEVER_GARDEN_OF_JOY",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_GARDEN_OF_JOY"
+  },
+  {
+    "name": "LEVER_GARDEN_OF_LOVE_TURNCAM",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_GARDEN_OF_LOVE_TURNCAM"
+  },
+  {
+    "name": "LEVER_GARDEN_OF_LIFE_LANTERNS",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_GARDEN_OF_LIFE_LANTERNS"
+  },
+  {
+    "name": "LEVER_ESTATE_UNDERGROUND_URN_SHED",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_ESTATE_UNDERGROUND_URN_SHED"
+  },
+  {
+    "name": "LEVER_MANOR_BIG_POT_ARENA",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_MANOR_BIG_POT_ARENA"
+  },
+  {
+    "name": "LEVER_MANOR_BOOKSHELF_SHORTCUT",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LEVER_MANOR_BOOKSHELF_SHORTCUT"
+  },
+  //DOORS ==================================================================
+  {
+    "name": "GROVE_OF_SPIRITS_DOOR",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "GROVE_OF_SPIRITS_DOOR"
+  },
+  {
+    "name": "LOST_CEMETERY_DOOR",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "LOST_CEMETERY_DOOR"
+  },
+  {
+    "name": "STRANDED_SAILOR_DOOR",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "STRANDED_SAILOR_DOOR"
+  },
+  {
+    "name": "CASTLE_LOCKSTONE_DOOR",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "CASTLE_LOCKSTONE_DOOR"
+  },
+  {
+    "name": "CAMP_OF_THE_FREE_CROWS_DOOR",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "CAMP_OF_THE_FREE_CROWS_DOOR"
+  },
+  {
+    "name": "OLD_WATCHTOWERS_DOOR",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "OLD_WATCHTOWERS_DOOR"
+  },
+  {
+    "name": "BETTYS_LAIR_DOOR",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "BETTYS_LAIR_DOOR"
+  },
+  {
+    "name": "OVERGROWN_RUINS_DOOR",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "OVERGROWN_RUINS_DOOR"
+  },
+  {
+    "name": "MUSHROOM_DUNGEON_DOOR",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "MUSHROOM_DUNGEON_DOOR"
+  },
+  {
+    "name": "FLOODED_FORTRESS_DOOR",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "FLOODED_FORTRESS_DOOR"
+  },
+  {
+    "name": "THRONE_OF_THE_FROG_KING_DOOR",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "THRONE_OF_THE_FROG_KING_DOOR"
+  },
+  {
+    "name": "ESTATE_OF_THE_URN_WITCH_DOOR",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "ESTATE_OF_THE_URN_WITCH_DOOR"
+  },
+  {
+    "name": "CERAMIC_MANOR_DOOR",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "CERAMIC_MANOR_DOOR"
+  },
+  {
+    "name": "INNER_FURNACE_DOOR",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "INNER_FURNACE_DOOR"
+  },
+  {
+    "name": "THE_URN_WITCHS_LABORATORY_DOOR",
+    "type": "toggle",
+    "img": "images/items/CrowSoul.png",
+    "codes": "THE_URN_WITCHS_LABORATORY_DOOR"
+  }
+]

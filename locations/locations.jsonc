@@ -1,0 +1,3965 @@
+[
+  {
+    "name": "Hall_of_Doors", //should be done?
+    "children": [
+      // SPELLS ============================================================
+      {
+        "name": "Hall of Doors - Fire Avarice",
+        "access_rules": [
+          "$AncientDoor1Open"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "hall_of_doors",
+            "x": 32,
+            "y": 229
+          }
+        ]
+      },
+      {
+        "name": "Hall of Doors - Bomb Avarice",
+        "access_rules": [
+          "$AncientDoor2Open",
+          "LEVER_BOMB_EXIT"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "hall_of_doors",
+            "x": 726,
+            "y": 112
+          }
+        ]
+      },
+      {
+        "name": "Hall of Doors - Hookshot Avarice",
+        "access_rules": [
+          "$AncientDoor3Open",
+          "hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "hall_of_doors",
+            "x": 283,
+            "y": 534
+          }
+        ]
+      },
+      // WEAPONS============================================================
+      {
+        "name": "Discarded Umbrella",
+        "access_rules": [
+          //If items are required, add them here. if multiple items can be used to access an area,
+          //put each item inside separate quotation marks, separated by a comma.
+            //ex. "hookshot","bomb"
+          //if multiple items are simultaneously required to access, separate them by a
+          //comma inside one set of quotations.
+            //ex. "hookshot,bomb"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "hall_of_doors",
+            "x": 316,
+            "y": 314
+          }
+        ]
+      },
+      // SOUL ORBS ============================================================
+      {
+        "name": "Soul orb Avarice 1 return upper",
+        "access_rules": [
+          "$AncientDoor1Open"         
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "hall_of_doors",
+            "x": 192,
+            "y": 357
+          }
+        ]
+      },
+      {
+        "name": "Soul orb Avarice 1 return lower",
+        "access_rules": [
+          "$AncientDoor1Open"         
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "hall_of_doors",
+            "x": 292,
+            "y": 307
+          }
+        ]
+      },
+      {
+        "name": "Soul Orb Bomb Avarice Return",
+        "access_rules": [
+          "$AncientDoor2Open",
+          "LEVER_BOMB_EXIT"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "hall_of_doors",
+            "x": 576,
+            "y": 142
+          }
+        ]
+      },
+      {
+        "name": "Soul Orb Hookshot Avarice Return",
+        "access_rules": [
+          "$AncientDoor3Open",
+          "hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "hall_of_doors",
+            "x": 495,
+            "y": 483
+          }
+        ]
+      },
+      {
+        "name": "Soul Orb surveilence island",
+        "access_rules": [
+          "bomb"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "hall_of_doors",
+            "x": 379,
+            "y": 295
+          }
+        ]
+      },
+      {
+        "name": "Soul Orb Modern Door island",
+        "access_rules": [
+          "hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "hall_of_doors",
+            "x": 634,
+            "y": 28
+          }
+        ]
+      },
+      {
+        "name": "Soul Orb Ancient Door Island",
+        "access_rules": [
+          "fire"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "hall_of_doors",
+            "x": 727,
+            "y": 285
+          }
+        ]
+      },
+      // SHINIES ============================================================
+      {
+        "name": "Ancient Door Scale Model",
+        "access_rules": [
+          "fire"        
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "hall_of_doors",
+            "x": 727,
+            "y": 270
+          }
+        ]
+      },
+      {
+        "name": "Modern Door Scale Model",
+        "access_rules": [
+          "hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "hall_of_doors",
+            "x": 619,
+            "y": 28
+          }
+        ]
+      },
+      {
+        "name": "Rusty Bell Tower Key",
+        "access_rules": [
+          "$CanFightLord"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "hall_of_doors",
+            "x": 443,
+            "y": 229
+          }
+        ]
+      },
+      {
+        "name": "Surveilence Device",
+        "access_rules": [
+          "bomb"               
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "hall_of_doors",
+            "x": 379,
+            "y": 280
+          }
+        ]
+      },
+      // LEVERS ============================================================
+      {
+        "name": "Bomb Return Lever",
+        "access_rules": [
+          "$AncientDoor2Open",
+          "LEVER_BOMB_EXIT"
+        ],
+        "sections": [{}],
+
+        "map_locations": [
+          {
+            "map": "hall_of_doors",
+            "x": 612,
+            "y": 257
+          }
+        ]
+      }
+    ]
+  },
+  //---------------------------------------------------------------------------------------------
+  {
+    "name": "GROVE_OF_SPIRITS",
+    "children": [
+      {
+        "name": "Grove of Spirits Door",
+        "access_rules": [
+          "GROVE_OF_SPIRITS_DOOR",
+          "LOST_CEMETERY_DOOR"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "grove_of_spirits",
+            "x": 140,
+            "y": 180
+          }
+        ]
+      },
+      {
+        "name": "Makeshift Soul Key",
+        "access_rules": [
+          "GROVE_OF_SPIRITS_DOOR, Hookshot",
+          "LOST_CEMETERY_DOOR, Hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "grove_of_spirits",
+            "x": 400,
+            "y": 240
+          }
+        ]
+      }
+    ]
+  },
+  //---------------------------------------------------------------------------------------
+  {
+    "name": "Lost_Cemetary",
+    "children": [
+      // SEEDS =======================================
+      {
+        "name": "SEED_CEMETERY_BROKEN_BRIDGE",
+        "access_rules": [
+         "$SteadhoneAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 367,
+            "y": 380
+          }
+        ]
+      },
+      {
+        "name": "SEED_CATACOMBS_TOWER",
+        "access_rules": [
+          "$CemetaryEntrance"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 472,
+            "y": 554
+          }
+        ]
+      },
+      {
+        "name": "SEED_CEMETERY_NEAR_TABLET_GATE",
+        "access_rules": [
+          "$BridgeEndAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 603,
+            "y": 675
+          }
+        ]
+      },
+      {
+        "name": "SEED_CEMETERY_LEFT_OF_MAIN_ENTRANCE",
+        "access_rules": [
+          "$CemetaryEntrance"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 286,
+            "y": 566
+          }
+        ]
+      },
+      // SPELLS =======================================
+      {
+        "name": "BOMB_SILENT_SERVANT",
+        "access_rules": [
+         "$EastTreeAreaAccess, bomb"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 647,
+            "y": 211
+          }
+        ]
+      },
+      {
+        "name": "Arrow Silent Servant",
+        "access_rules": [
+          "$ArrowSilentServant"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 1094,
+            "y": 321
+          }
+        ]
+      },
+      // SHRINES ===================================
+      {
+        "name": "HEART_SHRINE_CEMETERY_BEHIND_ENTRANCE",
+        "access_rules": [
+          "$CemetaryEntrance, hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 432,
+            "y": 704
+          }
+        ]
+      },
+      {
+        "name": "HEART_SHRINE_CEMETERY_WINDING_BRIDGE_END",
+        "access_rules": [
+          "$SteadhoneAccess, LEVER_CATACOMBS_TOWER"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 428,
+            "y": 645
+          }
+        ]
+      },
+      {
+        "name": "MAGIC_SHRINE_CEMETERY_AFTER_SMOUGH_ARENA",
+        "access_rules": [
+          "$StrandedSailorCavesAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 187,
+            "y": 439
+          }
+        ]
+      },
+      // SOUL ORBS======================================================
+      {
+        "name": "SOUL_ORB_CEMETERY_HOOKSHOT_TOWERS",
+        "access_rules": [
+          "$EastTreeAreaAccess, hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 678,
+            "y": 331
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_CEMETERY_UNDER_BRIDGE",
+        "access_rules": [
+          "$CemetaryEntrance",
+          "$CemetaryEntranceExternal"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 624, 
+            "y": 387 
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_CEMETERY_EAST_TREE",
+        "access_rules": [
+          "$EastTreeAreaAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 714,
+            "y": 265
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_CEMETERY_WINDING_BRIDGE_END",
+        "access_rules": [
+          "$BridgeEndAccess, bomb"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 472,
+            "y": 627
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_CEMETERY_GATED_SEWER",
+        "access_rules": [
+          "$PeakAccess, LEVER_CEMETERY_SEWER"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 488,
+            "y": 166
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_CEMETERY_CAVE",
+        "access_rules": [
+          "$SteadhoneAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 256,
+            "y": 283
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_CATACOMBS_EXIT",
+        "access_rules": [
+          "$CatacombsRoomOneAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 1152,
+            "y": 427
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_CATACOMBS_ROOM_2",
+        "access_rules": [
+          "$CatacombsFullAccess, fire"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 1109,
+            "y": 515
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_CATACOMBS_ROOM_1",
+        "access_rules": [
+          "$CatacombsRoomOneAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 1171,
+            "y": 455
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_CATACOMBS_ENTRANCE",
+        "access_rules": [
+          "$CemetaryEntranceExternal",
+          "$CemetaryEntrance"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 1136,
+            "y": 534
+          }
+        ]
+      },
+      // KEYS ===========================================
+      {
+        "name": "KEY_CEMETERY_CENTRAL",
+        "access_rules": [
+          "$CemetaryEntranceExternal, $CemetaryEntrance"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 559,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "KEY_CEMETERY_GREY_CROW",
+        "access_rules": [
+          "$PeakAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 406,
+            "y": 185
+          }
+        ]
+      },
+      // SHINIES =======================================
+      {
+        "name": "OLD_COMPASS",
+        "access_rules": [
+          "$CatacombsFullAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 1149,
+            "y": 459
+          }
+        ]
+      },
+      {
+        "name": "INCENSE",
+        "access_rules": [
+          "$PeakAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 416,
+            "y": 241
+          }
+        ]
+      },
+      {
+        "name": "UNDYING_BLOSSOM",
+        "access_rules": [
+          "$CemetaryEntranceExternal, $CemetaryEntrance"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 641,
+            "y": 484
+          }
+        ]
+      },
+      // TABLETS =======================================
+      {
+        "name": "CYAN_ANCIENT_TABLET_OF_KNOWLEDGE",
+        "access_rules": [
+          "$HasNightAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 561,
+            "y": 679
+          }
+        ]
+      },
+      {
+        "name": "PURPLE_ANCIENT_TABLET_OF_KNOWLEDGE",
+        "access_rules": [
+          "$HasNightAccess, MYSTERIOUS_LOCKET"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 405,
+            "y": 276
+          }
+        ]
+      },
+      // LEVERS ======================================================
+      {
+        "name": "LEVER_CEMETERY_SEWER",
+        "access_rules": [
+          "$PeakAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 498,
+            "y": 205
+          }
+        ]
+      },
+      {
+        "name": "LEVER_GUARDIAN_OF_THE_DOOR_ACCESS",
+        "access_rules": [
+          "$PeakAccess",
+          "$LegdayAccess, LEVER_CEMETERY_SHORTCUT_TO_EAST_TREE"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 608,
+            "y": 365
+          }
+        ]
+      },
+      {
+        "name": "LEVER_CEMETERY_SHORTCUT_TO_EAST_TREE",
+        "access_rules": [
+          "$EastTreeAreaAccess",
+          "$LegdayAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 703,
+            "y": 405
+          }
+        ]
+      },
+      {
+        "name": "LEVER_CEMETERY_EAST_TREE",
+        "access_rules": [
+          "$PeakAccess, fire"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 731,
+            "y": 191
+          }
+        ]
+      },
+      {
+        "name": "LEVER_CEMETERY_EXIT_TO_ESTATE",
+        "access_rules": [
+          "$PeakAccess, PINK_KEY",
+          "$SteadhoneAccess, LEVER_CEMETERY_EXIT_TO_ESTATE"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 306,
+            "y": 231
+          }
+        ]
+      },
+      {
+        "name": "LEVER_CATACOMBS_TOWER",
+        "access_rules": [
+          "$SteadhoneAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 478,
+            "y": 531
+          }
+        ]
+      },
+      {
+        "name": "LEVER_CATACOMBS_EXIT",
+        "access_rules": [
+          "$CatacombsRoomOneAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 1172,
+            "y": 447
+          }
+        ]
+      },
+      // DOOR ======================================================
+      {
+        "name": "LOST_CEMETERY_DOOR",
+        "access_rules": [
+          "$CemetaryEntrance",
+          "$CemetaryEntranceExternal"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "lost_cemetery",
+            "x": 491,
+            "y": 500
+          }
+        ]
+      }
+    ]
+  },
+  //-------------------------------------------------------------------------------------------------
+  {
+    "name": "Crypt", //ALL ITEMS COMPLETE
+    "children": [
+      {
+        "name": "FIRE_SILENT_SERVANT",
+        "access_rules": [
+          "$CryptAccess, fire"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "crypt",
+            "x": 130,
+            "y": 210
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_ESTATE_ACCESS_CRYPT",
+        "access_rules": [
+          "$CryptAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "crypt",
+            "x": 238,
+            "y": 214
+          }
+        ]
+      },
+      {
+        "name": "LEVER_ESTATE_ELEVATOR_RIGHT",
+        "access_rules": [
+          "$CryptAccess"          
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "crypt",
+            "x": 184,
+            "y": 91
+          }
+        ]
+      },
+      {
+        "name": "LEVER_ESTATE_ELEVATOR_LEFT",
+        "access_rules": [
+          "$CryptAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "crypt",
+            "x": 184,
+            "y": 147
+          }
+        ]
+      }
+    ]
+  },
+  //----------------------------------------------------------------------------------------------
+  {
+    "name": "Estate_of_the_Urn_Witch",
+    "children": [
+      {
+        "name": "Rogue Daggers",
+        "access_rules": [
+          "$ManorDoorAccess, LEVER_GARDEN_OF_LIFE_END"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 625,
+            "y": 306
+          }
+        ]
+      },
+      {
+        "name": "ESTATE_OF_THE_URN_WITCH_DOOR",
+        "access_rules": [
+          "$EstateFrontAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 548,
+            "y": 793
+          }
+        ]
+      },
+      {
+        "name": "HEART_SHRINE_GARDEN_OF_LIFE",
+        "access_rules": [
+          "$ManorDoorAccess, fire"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 795,
+            "y": 492
+          }
+        ]
+      },
+      {
+        "name": "MAGIC_SHRINE_ESTATE_LEFT_OF_MANOR",
+        "access_rules": [
+          "$ManorDoorAccess, LEVER_GARDEN_OF_LOVE"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 378,
+            "y": 130
+          }
+        ]
+      },
+      {
+        "name": "SLUDGE_FILLED_URN",
+        "access_rules": [
+          "$EstateFrontAccess, hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 668,
+            "y": 801
+          }
+        ]
+      },
+      {
+        "name": "RUSTY_GARDEN_TROWEL",
+        "access_rules": [
+          "$ManorDoorAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 172,
+            "y": 428
+          }
+        ]
+      },
+      {
+        "name": "GREEN_ANCIENT_TABLET_OF_KNOWLEDGE",
+        "access_rules": [
+          
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 88,
+            "y": 421
+          }
+        ]
+      },
+      {
+        "name": "ESTATE_OWL",
+        "access_rules": [
+          "$HasNightAccess, ManorDoorAccess, LEVER_GARDEN_OF_LIFE_END",
+          "$HasNightAccess, ManorDoorAccess, LEVER_GARDEN_OF_LIFE_LANTERNS"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 787,
+            "y": 324
+          }
+        ]
+      },
+      {
+        "name": "SEED_ESTATE_ENTRANCE",
+        "access_rules": [
+          "$CryptAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 992,
+            "y": 939
+          }
+        ]
+      },
+      {
+        "name": "SEED_ESTATE_HEDGE_GAPS",
+        "access_rules": [
+          "$EstateFrontAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 519,
+            "y": 689
+          }
+        ]
+      },
+      {
+        "name": "SEED_GARDEN_OF_JOY",
+        "access_rules": [
+          "$EstateFrontAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 395,
+            "y": 583
+          }
+        ]
+      },
+      {
+        "name": "SEED_ESTATE_FAMILY_TOMB",
+        "access_rules": [
+          "$ManorDoorAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 373,
+            "y": 483
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_ESTATE_SECRET_CAVE",
+        "access_rules": [
+          "$EstateFrontAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 553,
+            "y": 1036
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_ESTATE_BALCONY",
+        "access_rules": [
+          "$EstateFrontAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 521,
+            "y": 800
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_GARDEN_OF_LOVE_TURNCAM",
+        "access_rules": [
+          "$ManorDoorAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 505,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_ESTATE_BROKEN_BOARDWALK",
+        "access_rules": [
+          "$EstateFrontAccess, hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 692,
+            "y": 823
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_ESTATE_TWIN_BENCHES",
+        "access_rules": [
+          "$EstateFrontAccess, bomb"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 465,
+            "y": 1029
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_GARDEN_OF_PEACE",
+        "access_rules": [
+          "$EstateFrontAccess, bomb"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 659,
+            "y": 758
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_ESTATE_SEWER_MIDDLE",
+        "access_rules": [
+          "$EstateFrontAccess, hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 347,
+            "y": 623
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_ESTATE_SEWER_END",
+        "access_rules": [
+          "$EstateFrontAccess, hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 832,
+            "y": 582
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_GARDEN_OF_LOVE_BOMB_WALLS",
+        "access_rules": [
+          "$ManorDoorAccess, bomb"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 432,
+            "y": 352
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_GARDEN_OF_LIFE_BOMB_WALL",
+        "access_rules": [
+          "$ManorDoorAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 728,
+            "y": 464
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_GARDEN_OF_LIFE_HOOKSHOT_LOOP",
+        "access_rules": [
+          "$ManorDoorAccess, hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 952,
+            "y": 294
+          }
+        ]
+      },
+      {
+        "name": "LEVER_GARDEN_OF_PEACE",
+        "access_rules": [
+          "$EstateFrontAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 631,
+            "y": 620
+          }
+        ]
+      },
+      {
+        "name": "LEVER_GARDEN_OF_JOY",
+        "access_rules": [
+          "$EstateFrontAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 512,
+            "y": 620
+          }
+        ]
+      },
+      {
+        "name": "LEVER_GARDEN_OF_LOVE_TURNCAM",
+        "access_rules": [
+          "$ManorDoorAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 495,
+            "y": 452
+          }
+        ]
+      },
+      {
+        "name": "LEVER_GARDEN_OF_LOVE",
+        "access_rules": [
+          "$ManorDoorAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 519,
+            "y": 245
+          }
+        ]
+      },
+      {
+        "name": "LEVER_GARDEN_OF_LIFE_END",
+        "access_rules": [
+          "$ManorDoorAccess, LEVER_GARDEN_OF_LIFE_END",
+          "$ManorDoorAccess, LEVER_GARDEN_OF_LIFE_LANTERNS"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 625,
+            "y": 245
+          }
+        ]
+      },
+      {
+        "name": "LEVER_GARDEN_OF_LIFE_LANTERNS",
+        "access_rules": [
+          "$ManorDoorAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 936,
+            "y": 373
+          }
+        ]
+      },
+      {
+        "name": "LEVER_ESTATE_UNDERGROUND_URN_SHED",
+        "access_rules": [
+          "$EstateFrontAccess, hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "estate_of_the_urn_witch",
+            "x": 623,
+            "y": 800
+          }
+        ]
+      }
+    ]
+  },
+  //---------------------------------------------------------------------------------------
+  {
+    "name": "Ceramic_Manor",
+    "children": [
+      //SEEDS =================================================================
+      {
+        "name": "SEED_MANOR_MAIN_ROOM_UPPER", //9
+        "access_rules": [
+          "$ManorEntranceAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "ceramic_manor",
+            "x": 168,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "SEED_MANOR_BELOW_BIG_POT_ARENA",//10
+        "access_rules": [
+          "$ManorEntranceAccess",
+          "LEVER_MANOR_BIG_POT_ARENA"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "ceramic_manor",
+            "x": 764,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "SEED_MANOR_LIBRARY_SHELF",//11
+        "access_rules": [
+          "$ManorBehindKey"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "ceramic_manor",
+            "x": 235,
+            "y": 124
+          }
+        ]
+      },
+      {
+        "name": "SEED_MANOR_NEAR_BRAZIER",//12
+        "access_rules": [
+          "$ManorBehindKey"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "ceramic_manor",
+            "x": 323,
+            "y": 464
+          }
+        ]
+      },
+      {
+        "name": "SEED_MANOR_BOXES",//13
+        "access_rules": [
+          "$ManorBehindKey"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "ceramic_manor",
+            "x": 659,
+            "y": 416
+          }
+        ]
+      },
+      {
+        "name": "SEED_MANOR_SPINNY_POT_ROOM",//14
+        "access_rules": [
+          "$ManorBehindKey"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "ceramic_manor",
+            "x": 105,
+            "y": 378
+          }
+        ]
+      },
+      {
+        "name": "SEED_MANOR_RAFTERS",//15
+        "access_rules": [
+          "$ManorBehindKey"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "ceramic_manor",
+            "x": 1011,
+            "y": 403
+          }
+        ]
+      },
+      //SHRINES =================================================================
+      {
+        "name": "MAGIC_SHRINE_MANOR_BATHROOM_PUZZLE",
+        "access_rules": [
+          "$ManorBehindKey"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "ceramic_manor",
+            "x": 491,
+            "y": 442
+          }
+        ]
+      },
+      //SOUL ORBS =================================================================
+      {
+        "name": "SOUL_ORB_MANOR_IMP_LOFT",
+        "access_rules": [
+          "$ManorBehindKey"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "ceramic_manor",
+            "x": 989,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_MANOR_CHANDELIER",
+        "access_rules": [
+          "$ManorBehindKey"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "ceramic_manor",
+            "x": 759,
+            "y": 380
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_MANOR_LIBRARY_SHELF",
+        "access_rules": [
+          "$ManorBehindKey"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "ceramic_manor",
+            "x": 184,
+            "y": 182
+          }
+        ]
+      },
+      //KEYS =================================================================
+      {
+        "name": "KEY_MANOR_AFTER_SPINNY_POT_ROOM",
+        "access_rules": [
+          "$ManorBehindKey"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "ceramic_manor",
+            "x": 119,
+            "y": 413
+          }
+        ]
+      },
+      {
+        "name": "KEY_MANOR_UNDER_DINING_ROOM",
+        "access_rules": [
+          "$ManorEntranceAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "ceramic_manor",
+            "x": 274,
+            "y": 423
+          }
+        ]
+      },
+      {
+        "name": "KEY_MANOR_LIBRARY",
+        "access_rules": [
+          "$ManorBehindKey"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "ceramic_manor",
+            "x": 69,
+            "y": 148
+          }
+        ]
+      },
+      //SHINIES =================================================================
+      {
+        "name": "ENGAGEMENT_RING",
+        "access_rules": [
+          "$ManorBehindKey"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "ceramic_manor",
+            "x": 969,
+            "y": 413
+          }
+        ]
+      },
+      {
+        "name": "OLD_PHOTOGRAPH",
+        "access_rules": [
+          "$ManorEntranceAccess, fire"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "ceramic_manor",
+            "x": 912,
+            "y": 443
+          }
+        ]
+      },
+      //LEVERS =================================================================
+      {
+        "name": "LEVER_MANOR_BIG_POT_ARENA",
+        "access_rules": [
+          "$ManorBehindKey"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "ceramic_manor",
+            "x": 722,
+            "y": 435
+          }
+        ]
+      },
+      {
+        "name": "LEVER_MANOR_BOOKSHELF_SHORTCUT",
+        "access_rules": [
+          "$ManorBehindKey"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "ceramic_manor",
+            "x": 74,
+            "y": 123
+          }
+        ]
+      },
+      //DOOR =================================================================
+      {
+        "name": "CERAMIC_MANOR_DOOR",
+        "access_rules": [
+          "$ManorEntranceAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "ceramic_manor",
+            "x": 182,
+            "y": 456
+          }
+        ]
+      },
+      //CROWS =================================================================
+      {
+        "name": "CROW_MANOR_LIBRARY",
+        "access_rules": [
+          "$ManorBehindKey"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "ceramic_manor",
+            "x": 83,
+            "y": 29
+          }
+        ]
+      },
+      {
+        "name": "CROW_MANOR_BEDROOM",
+        "access_rules": [
+          "$ManorBehindKey"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "ceramic_manor",
+            "x": 415,
+            "y": 223
+          }
+        ]
+      },
+      {
+        "name": "CROW_MANOR_IMP_LOFT",
+        "access_rules": [
+          "$ManorBehindKey"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "ceramic_manor",
+            "x": 1015,
+            "y": 84
+          }
+        ]
+      },
+      {
+        "name": "CROW_MANOR_AFTER_TORCH_PUZZLE",
+        "access_rules": [
+          "$ManorEntranceAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "ceramic_manor",
+            "x": 1085,
+            "y": 118
+          }
+        ]
+      }
+    ]
+  },
+  //----------------------------------------------------------------------------------------
+  {
+    "name": "Furnace_Observation_Room",
+    "children": [
+      // SEEDS ===================================================================
+      {
+        "name": "Entrance Life Seed",
+        "access_rules": [
+          "$FurnaceObservationRoomAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "furnace_observation_rooms",
+            "x": 784,
+            "y": 144
+          }
+        ]
+      },
+      {
+        "name": "Cart Puzzle Life Seed",
+        "access_rules": [
+          "$FurnaceObservationRoomAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "furnace_observation_rooms",
+            "x": 277,
+            "y": 441
+          }
+        ]
+      },
+      // SHRINES ==============================================================
+      {
+        "name": "Cart Puzzle Heart Shrine",
+        "access_rules": [
+          "$FurnaceObservationRoomAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "furnace_observation_rooms",
+            "x": 175,
+            "y": 437
+          }
+        ]
+      },
+      // SOUL ORBS ============================================================
+      {
+        "name": "Furnace Sewer Soul Orb",
+        "access_rules": [
+          "$FurnaceObservationRoomAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "furnace_observation_rooms",
+            "x": 607,
+            "y": 273
+          }
+        ]
+      },
+      {
+        "name": "Lab Soul Orb",
+        "access_rules": [
+          "$FurnaceObservationRoomAccess, fire"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "furnace_observation_rooms",
+            "x": 621,
+            "y": 377
+          }
+        ]
+      },
+      {
+        "name": "Lantern Chain Soul Orb",
+        "access_rules": [
+          "$FurnaceObservationRoomAccess, fire"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "furnace_observation_rooms",
+            "x": 647,
+            "y": 504
+          }
+        ]
+      }
+    ]
+  },
+  //-----------------------------------------------------------------------------------------
+  {
+    "name": "Inner_Furnace",
+    "children": [
+      // SEEDS================================================================
+      {
+        "name": "SEED_INNER_FURNACE_CONVEYOR_BRIDGE",
+        "access_rules": [
+          "$FurnaceObservationRoomAccess, fire"
+          
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "inner_furnace",
+            "x": 220,
+            "y": 593
+          }
+        ]
+      },
+      {
+        "name": "SEED_INNER_FURNACE_HORIZONTAL_PISTONS",
+        "access_rules": [
+          "$FurnaceObservationRoomAccess, fire"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "inner_furnace",
+            "x": 648,
+            "y": 706
+          }
+        ]
+      },
+      {
+        "name": "SEED_INNER_FURNACE_CONVEYOR_GAUNTLET",
+        "access_rules": [
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "inner_furnace",
+            "x": 504,
+            "y": 594
+          }
+        ]
+      },
+      // DOOR==============================================================================
+      {
+        "name": "INNER_FURNACE_DOOR",
+        "access_rules": [
+          "$FurnaceObservationRoomAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "inner_furnace",
+            "x": 359,
+            "y": 600
+          }
+        ]
+      }
+    ]
+  },
+  //-----------------------------------------------------------------------------------------
+  {
+    "name": "The_Urn_Witchs_Laboratory",//ALL ITEMS COMPLETE
+    "children": [
+      {
+        "name": "THE_URN_WITCHS_LABORATORY_DOOR",
+        "access_rules": [
+          "$FurnaceObservationRoomAccess, fire",
+          "THE_URN_WITCHS_LABORATORY_DOOR"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "the_urn_witchs_laboratory",
+            "x": 136,
+            "y": 149
+          }
+        ]
+      },
+      {
+        "name": "Grandma",
+        "access_rules": [
+          "$FurnaceObservationRoomAccess, fire",
+          "THE_URN_WITCHS_LABORATORY_DOOR"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "the_urn_witchs_laboratory",
+            "x": 86,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  //-----------------------------------------------------------------------------------------
+  {
+    "name": "Overgrown_Ruins",
+    "children": [
+      // WEAPONS============================================================
+      {
+        "name": "THUNDER_HAMMER",
+        "access_rules": [
+          "$RuinGateAccess, MAGICAL_FOREST_HORN"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 850,
+            "y": 120
+          }
+        ]
+      },
+      // SEEDS============================================================
+      {
+        "name": "SEED_RUINS_BEHIND_BOXES",
+        "access_rules": [
+          "$RuinGateAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 495,
+            "y": 391
+          }
+        ]
+      },
+      {
+        "name": "SEED_RUINS_FIRE_PLANT_CORRIDOR",
+        "access_rules": [
+          "$RuinGateAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 103,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "SEED_RUINS_ON_SETTLEMENT_WALL",
+        "access_rules": [
+          "$RuinGateAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 180,
+            "y": 370
+          }
+        ]
+      },
+      {
+        "name": "SEED_RUINS_RIGHT_MIDDLE",
+        "access_rules": [
+          "$RuinGateAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 373,
+            "y": 437
+          }
+        ]
+      },
+      {
+        "name": "SEED_RUINS_LORD_OF_DOORS_ARENA",
+        "access_rules": [
+          "$RuinGateAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 334,
+            "y": 128
+          }
+        ]
+      },
+      {
+        "name": "SEED_RUINS_DOWN_THROUGH_BOMB_WALL",
+        "access_rules": [
+          "$RuinGateAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 475,
+            "y": 201
+          }
+        ]
+      },
+      {
+        "name": "SEED_DUNGEON_AVARICE_BRIDGE",
+        "access_rules": [
+          "$DungeonsAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 941,
+            "y": 153
+          }
+        ]
+      },
+      {
+        "name": "SEED_DUNGEON_FIRE_PUZZLE_NEAR_WATER_ARENA",
+        "access_rules": [
+          "$DungeonRequiresKey, fire",
+          "$DungeonsAccess, LEVER_DUNGEON_ENTRANCE_LEFT_GATE"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 847,
+            "y": 186
+          }
+        ]
+      },
+      {
+        "name": "SEED_DUNGEON_RIGHT_ABOVE_KEY",
+        "access_rules": [
+          "$DungeonsAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 1008,
+            "y": 309
+          }
+        ]
+      },
+      {
+        "name": "SEED_DUNGEON_ABOVE_RIGHTMOST_CROW",
+        "access_rules": [
+          "$DungeonRequiresKey"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 1075,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "SEED_DUNGEON_WATER_ARENA_LEFT_EXIT",
+        "access_rules": [
+          "$DungeonRequiresKey"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 790,
+            "y": 418
+          }
+        ]
+      },
+      // SHRINES ============================================================
+      {
+        "name": "HEART_SHRINE_RUINS_SEWER",
+        "access_rules": [
+          "$RuinGateAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 500,
+            "y": 26
+          }
+        ]
+      },
+      {
+        "name": "MAGIC_SHRINE_RUINS_HOOKSHOT_ARENA",
+        "access_rules": [
+          "$LegdayAccess, hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 36,
+            "y": 541
+          }
+        ]
+      },
+      {
+        "name": "MAGIC_SHRINE_RUINS_TURNCAM",
+        "access_rules": [
+          "$RuinGateAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 150,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "HEART_SHRINE_DUNGEON_WATER_ARENA",
+        "access_rules": [
+          "$DungeonRequiresKey, bomb"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 590,
+            "y": 288
+          }
+        ]
+      },
+      //SOUL ORBS ======================================================
+      {
+        "name": "SOUL_ORB_RUINS_LEFT_AFTER_KEY_DOOR",
+        "access_rules": [
+          "$RuinGateAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 68,
+            "y": 538
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_RUINS_ABOVE_THREE_PLANTS",
+        "access_rules": [
+          "$RuinGateAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 272,
+            "y": 385
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_RUINS_UP_TURNCAM_LADDER",
+        "access_rules": [
+          "$RuinGateAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 432,
+            "y": 347
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_RUINS_UPPER_BOMB_WALL",
+        "access_rules": [
+          "$RuinGateAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 370,
+            "y": 18
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_RUINS_UPPER_ABOVE_HORN",
+        "access_rules": [
+          "$RuinGateAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 215,
+            "y": 87
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_RUINS_LORD_OF_DOORS_ARENA_HOOKSHOT",
+        "access_rules": [
+          "$RuinGateAccess, hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 323,
+            "y": 108
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_RUINS_STUMP",
+        "access_rules": [
+          "$RuinGateAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 192,
+            "y": 252
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_RUINS_OUTSIDE_LEFT_DUNGEON_EXIT",
+        "access_rules": [
+          "$DungeonsAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 65,
+            "y": 455
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_RUINS_LOWER_HOOKSHOT",
+        "access_rules": [
+          "$RuinGateAccess, hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 216,
+            "y": 462
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_RUINS_ABOVE_ENTRANCE_GATE",
+        "access_rules": [
+          "$RuinGateAccess, hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 196,
+            "y": 640
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_RUINS_LOWER_BOMB_WALL",
+        "access_rules": [
+          "$RuinGateAccess, bomb"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 444,
+            "y": 537
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_DUNGEON_COBWEB",
+        "access_rules": [
+          "$DungeonsAccess, fire"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 992,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_DUNGEON_VINE",
+        "access_rules": [
+          "$DungeonRequiresKey"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 870,
+            "y": 220
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_DUNGEON_LEFT_EXIT_SHELF",
+        "access_rules": [
+          "$DungeonsAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 640,
+            "y": 468
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_DUNGEON_LOWER_ENTRANCE",
+        "access_rules": [
+          "$RuinGateAccess, bomb"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 1115,
+            "y": 422
+          }
+        ]
+      },
+      // KEYS ================================================================
+      {
+        "name": "KEY_OVERGROWN_RUINS",
+        "access_rules": [
+          "$RuinGateAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 118,
+            "y": 538
+          }
+        ]
+      },
+      {
+        "name": "KEY_DUNGEON_HALL",
+        "access_rules": [
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 858,
+            "y": 535
+          }
+        ]
+      },
+      {
+        "name": "KEY_DUNGEON_RIGHT",
+        "access_rules": [
+          "$DungeonsAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 1032,
+            "y": 294
+          }
+        ]
+      },
+      {
+        "name": "KEY_DUNGEON_NEAR_WATER_ARENA",
+        "access_rules": [
+          "$DungeonsAccess, fire"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 800,
+            "y": 235
+          }
+        ]
+      },
+      // Shinies =============================================================
+      {
+        "name": "MALFORMED_SEED",
+        "access_rules": [
+          "$RuinGateAccess, hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 459,
+            "y": 447
+          }
+        ]
+      },
+      {
+        "name": "CORRUPTED_ANTLER",
+        "access_rules": [
+          "$DungeonsAccess, bomb"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 913,
+            "y": 241
+          }
+        ]
+      },
+      {
+        "name": "MAGICAL_FOREST_HORN",
+        "access_rules": [
+          "$RuinGateAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 177,
+            "y": 123
+          }
+        ]
+      },
+      //TABLETS =============================================================
+      {
+        "name": "RUINS_OWL",
+        "access_rules": [
+          "$RuinGateAccess, $HasNightAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 137,
+            "y": 106
+          }
+        ]
+      },
+      {
+        "name": "YELLOW_ANCIENT_TABLET_OF_KNOWLEDGE",
+        "access_rules": [
+          "$LegdayAccess, $HasNightAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 254,
+            "y": 791
+          }
+        ]
+      },
+
+      //LEVERS ================================================================
+      {
+        "name": "LEVER_RUINS_SETTLEMENT_GATE",
+        "access_rules": [
+          "$RuinGateAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 296,
+            "y": 289
+          }
+        ]
+      },
+      {
+        "name": "LEVER_RUINS_LADDER_LEFT_OF_LORD_OF_DOORS_ARENA",
+        "access_rules": [
+          "$RuinGateAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 270,
+            "y": 171
+          }
+        ]
+      },
+      {
+        "name": "LEVER_RUINS_MAIN_GATE",
+        "access_rules": [
+          "$LegdayAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 224,
+            "y": 659
+          }
+        ]
+      },
+      {
+        "name": "LEVER_RUINS_UPPER_DUNGEON_ENTRANCE",
+        "access_rules": [
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 95,
+            "y": 271
+          }
+        ]
+      },
+      {
+        "name": "LEVER_RUINS_ENTRANCE_LADDER_SHORTCUT",
+        "access_rules": [
+          "$RuinGateAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 247,
+            "y": 446
+          }
+        ]
+      },
+      {
+        "name": "LEVER_DUNGEON_ENTRANCE_RIGHT_GATE",
+        "access_rules": [
+          "$DungeonsAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 962,
+            "y": 332
+          }
+        ]
+      },
+      {
+        "name": "LEVER_DUNGEON_ENTRANCE_LEFT_GATE",
+        "access_rules": [
+          "$DungeonRequiresKey"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 916,
+            "y": 377
+          }
+        ]
+      },
+      {
+        "name": "LEVER_DUNGEON_ABOVE_RIGHTMOST_CROW",
+        "access_rules": [
+          "$DungeonRequiresKey"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 1069,
+            "y": 301
+          }
+        ]
+      },
+      //DOOR ====================================================================
+      {
+        "name": "OVERGROWN_RUINS_DOOR",
+        "access_rules": [
+          "$RuinGateAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 305,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "MUSHROOM_DUNGEON_DOOR",
+        "access_rules": [
+          "$DungeonsAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 970,
+            "y": 361
+          }
+        ]
+      },
+      //CROWS ====================================================================
+      {
+        "name": "CROW_DUNGEON_HALL",
+        "access_rules": [
+          "$DungeonsAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 1058,
+            "y": 530
+          }
+        ]
+      },
+      {
+        "name": "CROW_DUNGEON_WATER_ARENA",
+        "access_rules": [
+          "$DungeonRequiresKey"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 811,
+            "y": 327
+          }
+        ]
+      },
+      {
+        "name": "CROW_DUNGEON_COBWEB",
+        "access_rules": [
+          "$DungeonsAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 993,
+            "y": 75
+          }
+        ]
+      },
+      {
+        "name": "CROW_DUNGEON_RIGHTMOST",
+        "access_rules": [
+          "$DungeonRequiresKey"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "overgrown_ruins",
+            "x": 1097,
+            "y": 260
+          }
+        ]
+      }
+    ]
+  },
+  //-----------------------------------------------------------------------------------------
+  {
+    "name": "Flooded_Fortress",
+    "children": [
+      //SEEDS =====================================================================
+      {
+        "name": "SEED_FORTRESS_WATCHTOWER",
+        "access_rules": [
+          "$FortressWatchtowerAccess, LEVER_FORTRESS_WATCHTOWER_UPPER"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "flooded_fortress",
+            "x": 418,
+            "y": 402
+          }
+        ]
+      },
+      {
+        "name": "SEED_FORTRESS_STATUE",
+        "access_rules": [
+          "$FloodedFortressFrontAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "flooded_fortress",
+            "x": 752,
+            "y": 450
+          }
+        ]
+      },
+      {
+        "name": "SEED_FORTRESS_INTRO_CRATE",
+        "access_rules": [
+          "$FloodedFortressFrontAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "flooded_fortress",
+            "x": 214,
+            "y": 79
+          }
+        ]
+      },
+      {
+        "name": "SEED_FORTRESS_EAST_AFTER_STATUE",
+        "access_rules": [
+          "$FloodedFortressFrontAccess, $HasNightAccess, hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "flooded_fortress",
+            "x": 381,
+            "y": 584
+          }
+        ]
+      },
+      {
+        "name": "SEED_FORTRESS_BRIDGE",
+        "access_rules": [
+          "$FloodedFortressFrontAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "flooded_fortress",
+            "x": 807,
+            "y": 283
+          }
+        ]
+      },
+      //SHRINES ================================================================
+      {
+        "name": "MAGIC_SHRINE_FORTRESS_BOW_SECRET",
+        "access_rules": [
+          "$FloodedFortressFrontAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "flooded_fortress",
+            "x": 91,
+            "y": 271
+          }
+        ]
+      },
+      //SOUL ORBS ===============================================================
+      {
+        "name": "SOUL_ORB_FORTRESS_BOMB",
+        "access_rules": [
+          "$FortressWatchtowerAccess, bomb"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "flooded_fortress",
+            "x": 429,
+            "y": 518
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_FORTRESS_HIDDEN_SEWER",
+        "access_rules": [
+          "$FortressWatchtowerAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "flooded_fortress",
+            "x": 410,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_FORTRESS_DROP",
+        "access_rules": [
+          "$FloodedFortressFrontAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "flooded_fortress",
+            "x": 429,
+            "y": 291
+          }
+        ]
+      },
+      //TABLETS================================================================
+      {
+        "name": "RED_ANCIENT_TABLET_OF_KNOWLEDGE",
+        "access_rules": [
+          "$FloodedFortressFrontAccess, $HasNightAccess, hookshot, $HasStrandedSailorAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "flooded_fortress",
+            "x": 814,
+            "y": 170
+          }
+        ]
+      },
+      //LEVERS ================================================================
+      {
+        "name": "LEVER_FORTRESS_CENTRAL_SHORTCUT",
+        "access_rules": [
+          "$FortressGateAccess, LEVER_FORTRESS_MAIN_GATE"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "flooded_fortress",
+            "x": 809,
+            "y": 581
+          }
+        ]
+      },
+      {
+        "name": "LEVER_FORTRESS_MAIN_GATE",
+        "access_rules": [
+          "$FortressGateAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "flooded_fortress",
+            "x": 800,
+            "y": 728
+          }
+        ]
+      },
+      {
+        "name": "LEVER_FORTRESS_BOMB",
+        "access_rules": [
+          "$FortressInnerAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "flooded_fortress",
+            "x": 628,
+            "y": 687
+          }
+        ]
+      },
+      {
+        "name": "LEVER_FORTRESS_STATUE",
+        "access_rules": [
+          "$FloodedFortressFrontAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "flooded_fortress",
+            "x": 800,
+            "y": 374
+          }
+        ]
+      },
+      {
+        "name": "LEVER_FORTRESS_WATCHTOWER_LOWER",
+        "access_rules": [
+          "$FloodedFortressFrontAccess",
+          "$FortressWatchtowerAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "flooded_fortress",
+            "x": 455,
+            "y": 394
+          }
+        ]
+      },
+      {
+        "name": "LEVER_FORTRESS_NORTH_WEST",
+        "access_rules": [
+          "$FortressInnerAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "flooded_fortress",
+            "x": 424,
+            "y": 780
+          }
+        ]
+      },
+      {
+        "name": "LEVER_FORTRESS_PRE_MAIN_GATE",
+        "access_rules": [
+          "$FloodedFortressFrontAccess, LEVER_FORTRESS_STATUE",
+          "$FortressGateAccess, LEVER_FORTRESS_PRE_MAIN_GATE"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "flooded_fortress",
+            "x": 910,
+            "y": 592
+          }
+        ]
+      },
+      {
+        "name": "LEVER_FORTRESS_WATCHTOWER_UPPER",
+        "access_rules": [
+          "$FortressWatchtowerAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "flooded_fortress",
+            "x": 415,
+            "y": 420
+          }
+        ]
+      },
+      {
+        "name": "LEVER_FORTRESS_BRIDGE",
+        "access_rules": [
+          "$FortressInnerAccess"          
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "flooded_fortress",
+            "x": 452,
+            "y": 570
+          }
+        ]
+      },
+      // DOOR===========================================================================
+      {
+        "name": "FLOODED_FORTRESS_DOOR",
+        "access_rules": [
+          "$FortressGateAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "flooded_fortress",
+            "x": 890,
+            "y": 693
+          }
+        ]
+      }
+    ]
+  },
+  //-----------------------------------------------------------------------------------------
+  {
+    "name": "Throne_of_the_Frog_King",//ALL ITEMS COMPLETE
+    "children": [
+      {
+        "name": "Throne Room Door",
+        "access_rules": [
+          "$ThroneRoomAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "throne_of_the_frog_king",
+            "x": 233,
+            "y": 63
+          }
+        ]
+      },
+      {
+        "name": "Frog King",
+        "access_rules": [
+          "$ThroneRoomAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "throne_of_the_frog_king",
+            "x": 133,
+            "y": 76
+          }
+        ]
+      },
+      {
+        "name": "Giant Arrowhead",
+        "access_rules": [
+          "$ThroneRoomAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "throne_of_the_frog_king",
+            "x": 25,
+            "y": 58
+          }
+        ]
+      }
+    ]
+  },
+  //-----------------------------------------------------------------------------------------
+  {
+    "name": "Stranded_Sailor_Caves",
+    "children": [
+      {
+        "name": "SEED_BETWEEN_CEMETERY_AND_SAILOR",
+        "access_rules": [
+          "$StrandedSailorCavesAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "stranded_sailor_caves",
+            "x": 214,
+            "y": 32
+          }
+        ]
+      },
+      {
+        "name": "TOKEN_OF_DEATH",
+        "access_rules": [
+          "$StrandedSailorCavesAccess, hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "stranded_sailor_caves",
+            "x": 303,
+            "y": 121
+          }
+        ]
+      },
+      {
+        "name": "LEVER_HOOKSHOT_SILENT_SERVANT",
+        "access_rules": [
+          "$StrandedSailorCavesAccess, hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "stranded_sailor_caves",
+            "x": 121,
+            "y": 191
+          }
+        ]
+      },
+      {
+        "name": "HOOKSHOT_SILENT_SERVANT",
+        "access_rules": [
+          "$StrandedSailorCavesAccess, LEVER_HOOKSHOT_SILENT_SERVANT"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "stranded_sailor_caves",
+            "x": 121,
+            "y": 65
+          }
+        ]
+      }
+    ]
+  },
+  //-----------------------------------------------------------------------------------------
+  {
+    "name": "stranded_sailor",
+    "children": [
+      //WEAPONS ==============================================
+      {
+        "name": "Reaper Greatsword",
+        "access_rules": [
+          "$StrandedSailorHookshot, LEVER_SAILOR_GREATSWORD_GATE"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "stranded_sailor",
+            "x": 308,
+            "y": 318
+          }
+        ]
+      },
+      //SEEDS==================================================
+      {
+        "name": "SEED_SAILOR_UPPER",
+        "access_rules": [
+          "$StrandedSailorUpper"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "stranded_sailor",
+            "x": 217,
+            "y": 158
+          }
+        ]
+      },
+      //SHRINES==================================================
+      {
+        "name": "MAGIC_SHRINE_SAILOR_TURNCAM",
+        "access_rules": [
+          "$StrandedSailorUpper"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "stranded_sailor",
+            "x": 298,
+            "y": 187
+          }
+        ]
+      },
+      {
+        "name": "HEART_SHRINE_HOOKSHOT_ARENA",
+        "access_rules": [
+          "$StrandedSailorHookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "stranded_sailor",
+            "x": 178,
+            "y": 361
+          }
+        ]
+      },
+      //SOUL ORB =================================================
+      {
+        "name": "SOUL_ORB_SAILOR_TURNCAM",
+        "access_rules": [
+          "$StrandedSailorUpper"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "stranded_sailor",
+            "x": 209,
+            "y": 91
+          }
+        ]
+      },
+      //Shinies ==================================================
+      {
+        "name": "GRUNTS_OLD_MASK",
+        "access_rules": [
+          "$StrandedSailorAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "stranded_sailor",
+            "x": 428,
+            "y": 380
+          }
+        ]
+      },
+      {
+        "name": "CAPTAINS_LOG",
+        "access_rules": [
+          "$StrandedSailorAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "stranded_sailor",
+            "x": 542,
+            "y": 206
+          }
+        ]
+      },
+      {
+        "name": "INK_COVERED_TEDDY_BEAR",
+        "access_rules": [
+          "$StrandedSailorHookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "stranded_sailor",
+            "x": 598,
+            "y": 222
+          }
+        ]
+      },
+      //Lever ==================================================
+      {
+        "name": "LEVER_SAILOR_TURNCAM_UPPER",
+        "access_rules": [
+          "$StrandedSailorUpper"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "stranded_sailor",
+            "x": 224,
+            "y": 91
+          }
+        ]
+      },
+      {
+        "name": "LEVER_SAILOR_TURNCAM_LOWER",
+        "access_rules": [
+          "$StrandedSailorUpper"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "stranded_sailor",
+            "x": 239,
+            "y": 91
+          }
+        ]
+      },
+      {
+        "name": "LEVER_SAILOR_GREATSWORD_GATE",
+        "access_rules": [
+          "$StrandedSailorHookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "stranded_sailor",
+            "x": 297,
+            "y": 341
+          }
+        ]
+      },
+      //DOOR ==================================================
+      {
+        "name": "STRANDED_SAILOR_DOOR",
+        "access_rules": [
+          "$StrandedSailorAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "stranded_sailor",
+            "x": 427,
+            "y": 360
+          }
+        ]
+      }
+    ]
+  },
+  //-----------------------------------------------------------------------------------------
+  {
+    "name": "castle_lockstone",
+    "children": [
+      //SEEDS ==========================================================================
+      {
+        "name": "SEED_LOCKSTONE_SOUL_DOOR",
+        "access_rules": [
+          "$LockstoneCenterAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 330,
+            "y": 468
+          }
+        ]
+      },
+      {
+        "name": "SEED_LOCKSTONE_NORTH",
+        "access_rules": [
+          "$LockstoneCenterAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 564,
+            "y": 670
+          }
+        ]
+      },
+      {
+        "name": "SEED_LOCKSTONE_BEHIND_BARS",
+        "access_rules": [
+          "$LockstoneCenterAccess, hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 120,
+            "y": 235
+          }
+        ]
+      },
+      {
+        "name": "SEED_LOCKSTONE_ENTRANCE_WEST",
+        "access_rules": [
+          "$LockstoneCenterAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 279,
+            "y": 127
+          }
+        ]
+      },
+      {
+        "name": "SEED_LOCKSTONE_UPPER_EAST",
+        "access_rules": [
+          "$LockstoneCenterAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 450,
+            "y": 137
+          }
+        ]
+      },
+      // SHRINES ========================================================
+      {
+        "name": "MAGIC_SHRINE_LOCKSTONE_SECRET_WEST",
+        "access_rules": [
+          "$LockstoneCenterAccess, hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 33,
+            "y": 130
+          }
+        ]
+      },
+      // SOUL ORBS =======================================================
+      {
+        "name": "SOUL_ORB_NORTH_LOCKSTONE_SEWER",
+        "access_rules": [
+          "$LockstoneCenterAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 467,
+            "y": 173
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_LOCKSTONE_HOOKSHOT_NORTH",
+        "access_rules": [
+          "$LockstoneCenterAccess, hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 400,
+            "y": 202
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_WEST_LOCKSTONE_SEWER",
+        "access_rules": [
+          "$LockstoneCenterAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 250,
+            "y": 66
+          }
+        ]
+      },
+      //KEYS =======================================================================
+      {
+        "name": "KEY_LOCKSTONE_NORTH",
+        "access_rules": [
+          "$LockstoneCenterAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 392,
+            "y": 53
+          }
+        ]
+      },
+      {
+        "name": "KEY_LOCKSTONE_WEST",
+        "access_rules": [
+          "$LockstoneCenterAccess, hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 246,
+            "y": 194
+          }
+        ]
+      },
+      // SHINIES ===========================================================
+      {
+        "name": "ANCIENT_CROWN",
+        "access_rules": [
+          "$LockstoneCenterAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 330,
+            "y": 442
+          }
+        ]
+      },
+      {
+        "name": "DEATHS_CONTRACT",
+        "access_rules": [
+          "$LockstoneCenterAccess, LEVER_LOCKSTONE_EAST_START_SHORTCUT",
+          "$LockstoneCenterAccess, hookshot, fire, LEVER_LOCKSTONE_VERTICAL_LASER_PUZZLE"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 612,
+            "y": 770
+          }
+        ]
+      },
+      // LEVERS =================================================================
+      {
+        "name": "LEVER_LOCKSTONE_EAST_START_SHORTCUT",
+        "access_rules": [
+          "$LockstoneCenterAccess, LEVER_LOCKSTONE_EAST_START_SHORTCUT",
+          "$LockstoneCenterAccess, hookshot, fire, LEVER_LOCKSTONE_VERTICAL_LASER_PUZZLE"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 379,
+            "y": 759
+          }
+        ]
+      },
+      {
+        "name": "LEVER_LOCKSTONE_ENTRANCE",
+        "access_rules": [
+          "$LockstoneCenterAccess, LEVER_LOCKSTONE_ENTRANCE",
+          "$StrandedSailorUpper"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 320,
+            "y": 757
+          }
+        ]
+      },
+      {
+        "name": "LEVER_LOCKSTONE_WEST_UPPER",
+        "access_rules": [
+          "$LockstoneCenterAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 311,
+            "y": 213
+          }
+        ]
+      },
+      {
+        "name": "LEVER_LOCKSTONE_UPPER_SHORTCUT",
+        "access_rules": [
+          "$LockstoneCenterAccess, hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 387,
+            "y": 283
+          }
+        ]
+      },
+      {
+        "name": "LEVER_LOCKSTONE_VERTICAL_LASER_PUZZLE",
+        "access_rules": [
+          "$LockstoneCenterAccess, LEVER_LOCKSTONE_TRACKING_BEAM_PUZZLE"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 517,
+            "y": 532
+          }
+        ]
+      },
+      {
+        "name": "LEVER_LOCKSTONE_TRACKING_BEAM_PUZZLE",
+        "access_rules": [
+          "$LockstoneCenterAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 515,
+            "y": 627
+          }
+        ]
+      },
+      {
+        "name": "LEVER_LOCKSTONE_UPPER_PUZZLE",
+        "access_rules": [
+          "$LockstoneCenterAccess, hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 581,
+            "y": 257
+          }
+        ]
+      },
+      {
+        "name": "LEVER_LOCKSTONE_NORTH_PUZZLE",
+        "access_rules": [
+          "$LockstoneCenterAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 383,
+            "y": 74
+          }
+        ]
+      },
+      {
+        "name": "LEVER_LOCKSTONE_SHRINE",
+        "access_rules": [
+          "$LockstoneCenterAccess, hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 137,
+            "y": 155
+          }
+        ]
+      },
+      {
+        "name": "LEVER_LOCKSTONE_DUAL_LASER_PUZZLE",
+        "access_rules": [
+          "$LockstoneCenterAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 184,
+            "y": 762
+          }
+        ]
+      },
+      {
+        "name": "LEVER_LOCKSTONE_HOOKSHOT_PUZZLE",
+        "access_rules": [
+          "$LockstoneCenterAccess, hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 192,
+            "y": 351
+          }
+        ]
+      },
+      {
+        "name": "LEVER_LOCKSTONE_UPPER_DUAL_LASER_PUZZLE",
+        "access_rules": [
+          "$LockstoneCenterAccess, hookshot, LEVER_LOCKSTONE_UPPER_PUZZLE"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 587,
+            "y": 124
+          }
+        ]
+      },
+      // DOOR ================================================
+      {
+        "name": "CASTLE_LOCKSTONE_DOOR",
+        "access_rules": [
+          "$LockstoneCenterAccess",
+          "CASTLE_LOCKSTONE_DOOR"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 355,
+            "y": 746
+          }
+        ]
+      },
+      //CROWS ================================================================
+      {
+        "name": "CROW_LOCKSTONE_EAST",
+        "access_rules": [
+          "$LockstoneCenterAccess, LEVER_LOCKSTONE_TRACKING_BEAM_PUZZLE, LEVER_LOCKSTONE_VERTICAL_LASER_PUZZLE",
+          "$LockstoneCenterAccess, hookshot, LEVER_LOCKSTONE_UPPER_PUZZLE, LEVER_LOCKSTONE_UPPER_DUAL_LASER_PUZZLE"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 578,
+            "y": 442
+          }
+        ]
+      },
+      {
+        "name": "CROW_LOCKSTONE_WEST",
+        "access_rules": [
+          "$LockstoneCenterAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 358,
+            "y": 66
+          }
+        ]
+      },
+      {
+        "name": "CROW_LOCKSTONE_WEST_LOCKED",
+        "access_rules": [
+          "$LockstoneCenterAccess, PINK_KEY"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 135,
+            "y": 452
+          }
+        ]
+      },
+      {
+        "name": "CROW_LOCKSTONE_SOUTH_WEST",
+        "access_rules": [
+          "$LockstoneCenterAccess, LEVER_LOCKSTONE_DUAL_LASER_PUZZLE"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "castle_lockstone",
+            "x": 255,
+            "y": 736
+          }
+        ]
+      }
+    ]
+  },
+  //-----------------------------------------------------------------------------------------
+  {
+    "name": "camp_of_the_free_crows",
+    "children": [
+      //SEEDS ====================================================================
+      {
+        "name": "SEED_CAMP_LEDGE_WITH_HUTS",
+        "access_rules": [
+          "$CampAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "camp_of_the_free_crows",
+            "x": 684,
+            "y": 325
+          }
+        ]
+      },
+      {
+        "name": "SEED_CAMP_STALL",
+        "access_rules": [
+          "$CampAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "camp_of_the_free_crows",
+            "x": 544,
+            "y": 211
+          }
+        ]
+      },
+      {
+        "name": "SEED_CAMP_ROOFTOPS",
+        "access_rules": [
+          "$CampAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "camp_of_the_free_crows",
+            "x": 704,
+            "y": 656
+          }
+        ]
+      },
+      //shrine ====================================================================
+      {
+        "name": "HEART_SHRINE_CAMP_ICE_SKATING",
+        "access_rules": [
+          "$CampAccess, PINK_KEY, hookshot",
+          "$WatchtowersDoorAccess, hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "camp_of_the_free_crows",
+            "x": 353,
+            "y": 564
+          }
+        ]
+      },
+      //Soul orbs ====================================================================
+      {
+        "name": "SOUL_ORB_CAMP_ROOFTOPS",
+        "access_rules": [
+          "$CampAccess, hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "camp_of_the_free_crows",
+            "x": 754,
+            "y": 852
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_CAMP_BROKEN_BRIDGE",
+        "access_rules": [
+          "$CampAccess, hookshot"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "camp_of_the_free_crows",
+            "x": 587,
+            "y": 366
+          }
+        ]
+      },
+      {
+        "name": "SOUL_ORB_LOCKSTONE_EXIT",
+        "access_rules": [
+          "$CampAccess, hookshot",
+          "$LockstoneExitElevator"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "camp_of_the_free_crows",
+            "x": 776,
+            "y": 852
+          }
+        ]
+      },
+      //KEY ====================================================================
+      {
+        "name": "KEY_CAMP_OF_THE_FREE_CROWS",
+        "access_rules": [
+          "$CampAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "camp_of_the_free_crows",
+            "x": 586,
+            "y": 201
+          }
+        ]
+      },
+      //SHINIES ====================================================================
+      {
+        "name": "SHINY_MEDALLION",
+        "access_rules": [    
+          "$CampAccess, bomb",
+          "$WatchtowersDoorAccess, bomb"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "camp_of_the_free_crows",
+            "x": 364,
+            "y": 273
+          }
+        ]
+      },
+      //DOOR ====================================================================
+      {
+        "name": "CAMP_OF_THE_FREE_CROWS_DOOR",
+        "access_rules": [
+          "$CampAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "camp_of_the_free_crows",
+            "x": 634,
+            "y": 300
+          }
+        ]
+      }
+    ]
+  },
+  //-----------------------------------------------------------------------------------------
+  {
+    "name": "old_watchtowers",
+    "children": [
+      //SEEDS ======================================================
+      {
+        "name": "SEED_WATCHTOWERS_ICE_SKATING",
+        "access_rules": [
+          "$WatchtowersTwoAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "old_watchtowers",
+            "x": 429,
+            "y": 548
+          }
+        ]
+      },
+      {
+        "name": "SEED_WATCHTOWERS_TABLET_DOOR",
+        "access_rules": [
+          "$WatchtowersAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "old_watchtowers",
+            "x": 786,
+            "y": 309
+          }
+        ]
+      },
+      {
+        "name": "SEED_WATCHTOWERS_ARCHER_PLATFORM",
+        "access_rules": [
+          "$WatchtowersAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "old_watchtowers",
+            "x": 672,
+            "y": 656
+          }
+        ]
+      },
+      {
+        "name": "SEED_WATCHTOWERS_BOXES",
+        "access_rules": [
+          "$WatchtowersAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "old_watchtowers",
+            "x": 747,
+            "y": 475
+          }
+        ]
+      },
+      //Soul Orb ======================================================
+      {
+        "name": "SOUL_ORB_WATCHTOWERS_BEHIND_BARB_ELEVATOR",
+        "access_rules": [
+          "$WatchtowersAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "old_watchtowers",
+            "x": 612,
+            "y": 597
+          }
+        ]
+      },
+      //SHINY ======================================================
+      {
+        "name": "MYSTERIOUS_LOCKET",
+        "access_rules": [
+          "$WatchtowersArenaAccess, $HasNightAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "old_watchtowers",
+            "x": 80,
+            "y": 671
+          }
+        ]
+      },
+      //TABLETS ======================================================
+      {
+        "name": "BLUE_ANCIENT_TABLET_OF_KNOWLEDGE",
+        "access_rules": [
+          "$WatchtowersTwoAccess, $HasNightAccess, fire"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "old_watchtowers",
+            "x": 787,
+            "y": 237
+          }
+        ]
+      },
+      {
+        "name": "WATCHTOWERS_OWL",
+        "access_rules": [
+          "$WatchtowersTwoAccess, $HasNightAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "old_watchtowers",
+            "x": 453,
+            "y": 519
+          }
+        ]
+      },
+      //LEVERS ======================================================
+      {
+        "name": "LEVER_WATCHTOWERS_BEFORE_ICE_ARENA",
+        "access_rules": [
+          "$WatchtowersAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "old_watchtowers",
+            "x": 542,
+            "y": 585
+          }
+        ]
+      },
+      {
+        "name": "LEVER_WATCHTOWERS_AFTER_ICE_SKATING",
+        "access_rules": [
+          "$WatchtowersTwoAccess, $HasNightAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "old_watchtowers",
+            "x": 443,
+            "y": 542
+          }
+        ]
+      },
+      {
+        "name": "LEVER_WATCHTOWERS_AFTER_BOOMERS",
+        "access_rules": [
+          "$WatchtowersAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "old_watchtowers",
+            "x": 703,
+            "y": 550
+          }
+        ]
+      },
+      //DOOR ======================================================
+      {
+        "name": "OLD_WATCHTOWERS_DOOR",
+        "access_rules": [
+          "$WatchtowersDoorAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "old_watchtowers",
+            "x": 844,
+            "y": 584
+          }
+        ]
+      }
+    ]
+  },
+  //-----------------------------------------------------------------------------------------
+  {
+    "name": "bettys_lair",//ALL ITEMS COMPLETE
+    "children": [
+      {
+        "name": "Betty",
+        "access_rules": [
+          "$WatchtowersArenaAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "bettys_lair",
+            "x": 119,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Betty's Lair Door",
+        "access_rules": [
+          "$WatchtowersArenaAccess"
+        ],
+        "sections": [{}],
+        "map_locations": [
+          {
+            "map": "bettys_lair",
+            "x": 173,
+            "y": 80
+          }
+        ]
+      }
+    ]
+  }
+]

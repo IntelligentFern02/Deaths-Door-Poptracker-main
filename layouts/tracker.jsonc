@@ -1,0 +1,197 @@
+{
+  //sets the trackers layout
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#layouts
+  "tracker_default": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "left",
+          "v_alignment": "stretch",
+          "content": [
+            {
+              "type": "group",
+              "header": "Items",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "shared_item_grid"
+              }
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Hall of Doors",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "hall_of_doors"
+                ]
+              }
+            },
+            {
+              "title": "Grove of Spirits",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "grove_of_spirits"
+                ]
+              }
+            },
+            {
+              "title": "Lost Cemetary",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "lost_cemetery"
+                ]
+              }
+            },
+            {
+              "title": "Crypt",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "crypt"
+                ]
+              }
+            },
+            {
+              "title": "Estate of the Urn Witch",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "estate_of_the_urn_witch"
+                ]
+              }
+            },
+            {
+              "title": "Ceramic Manor",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "ceramic_manor"
+                ]
+              }
+            },
+            {
+              "title": "Furnace Observation Rooms",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "furnace_observation_rooms"
+                ]
+              }
+            },
+            {
+              "title": "Inner Furnace",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "inner_furnace"
+                ]
+              }
+            },
+            {
+              "title": "The Urn Witch's Laboratory",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "the_urn_witchs_laboratory"
+                ]
+              }
+            },
+            {
+              "title": "Overgrown Ruins",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "overgrown_ruins"
+                ]
+              }
+            },
+            {
+              "title": "Flooded Fortress",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "flooded_fortress"
+                ]
+              }
+            },
+            {
+              "title": "Throne of the Frog King",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "throne_of_the_frog_king"
+                ]
+              }
+            },
+            {
+              "title": "Stranded Sailor Caves",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "stranded_sailor_caves"
+                ]
+              }
+            },
+            {
+              "title": "Stranded Sailor",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "stranded_sailor"
+                ]
+              }
+            },
+            {
+              "title": "Castle Lockstone",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "castle_lockstone"
+                ]
+              }
+            },
+            {
+              "title": "Camp of the Free Crows",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "camp_of_the_free_crows"
+                ]
+              }
+            },
+            {
+              "title": "Old Watchtowers",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "old_watchtowers"
+                ]
+              }
+            },
+            {
+              "title": "Betty's Lair",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "bettys_lair"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

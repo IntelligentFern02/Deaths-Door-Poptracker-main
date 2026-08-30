@@ -1,0 +1,165 @@
+{
+  // sets layouts for shadred items grids
+  //use "Codes" field in item.jsonc for title reference.
+  // bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
+  "shared_item_grid": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "10, 10",
+            "h_alignment": "left",
+            "rows": [
+              [
+                "GIANT_SOUL_OF_THE_URN_WITCH",
+                "CROW_MANOR_AFTER_TORCH_PUZZLE",
+                "CROW_MANOR_IMP_LOFT",
+                "CROW_MANOR_LIBRARY",
+                "CROW_MANOR_BEDROOM"
+              ],
+              [
+                "GIANT_SOUL_OF_THE_FROG_KING",
+                "CROW_DUNGEON_HALL",
+                "CROW_DUNGEON_WATER_ARENA",
+                "CROW_DUNGEON_COBWEB",
+                "CROW_DUNGEON_RIGHTMOST"
+              ],
+              [
+                "GIANT_SOUL_OF_BETTY",
+                "CROW_LOCKSTONE_EAST",
+                "CROW_LOCKSTONE_WEST",
+                "CROW_LOCKSTONE_SOUTH_WEST",
+                "CROW_LOCKSTONE_WEST_LOCKED"
+              ],
+              [
+                "BLUE_ANCIENT_TABLET_OF_KNOWLEDGE",
+                "CYAN_ANCIENT_TABLET_OF_KNOWLEDGE",
+                "GREEN_ANCIENT_TABLET_OF_KNOWLEDGE",
+                "PINK_ANCIENT_TABLET_OF_KNOWLEDGE",
+                "PURPLE_ANCIENT_TABLET_OF_KNOWLEDGE",
+                "RED_ANCIENT_TABLET_OF_KNOWLEDGE",
+                "YELLOW_ANCIENT_TABLET_OF_KNOWLEDGE"
+              ],
+              [
+                "BOW",
+                "FIRE",
+                "BOMB",
+                "hookshot",
+                "SWORD",
+                "THUNDER_HAMMER",
+                "ROGUE_DAGGERS",
+                "REAPERS_GREATSWORD",
+                "DISCARDED_UMBRELLA"
+              ],
+              [
+                "SEED",
+                "RUSTY_BELLTOWER_KEY",
+                "MAGICAL_FOREST_HORN",
+                "MYSTERIOUS_LOCKET"
+              ],
+              [
+                "LEVER_BOMB_EXIT",
+                "PINK_KEY",
+                "YELLOW_KEY",
+                "GREEN_KEY"
+              ],
+              [
+                "LEVER_CEMETERY_SEWER",
+                "LEVER_GUARDIAN_OF_THE_DOOR_ACCESS",
+                "LEVER_CEMETERY_SHORTCUT_TO_EAST_TREE",
+                "LEVER_CEMETERY_EAST_TREE",
+                "LEVER_CATACOMBS_TOWER",
+                "LEVER_CEMETERY_EXIT_TO_ESTATE",
+                "LEVER_CATACOMBS_EXIT",
+                "LEVER_HOOKSHOT_SILENT_SERVANT",
+                "LEVER_SAILOR_TURNCAM_UPPER",
+                "LEVER_SAILOR_TURNCAM_LOWER",
+                "LEVER_SAILOR_GREATSWORD_GATE"
+              ],
+              [
+                "LEVER_LOCKSTONE_EAST_START_SHORTCUT",
+                "LEVER_LOCKSTONE_ENTRANCE",
+                "LEVER_LOCKSTONE_EAST_LOWER",
+                "LEVER_LOCKSTONE_UPPER_SHORTCUT",
+                "LEVER_LOCKSTONE_DUAL_LASER_PUZZLE",
+                "LEVER_LOCKSTONE_TRACKING_BEAM_PUZZLE",
+                "LEVER_LOCKSTONE_VERTICAL_LASER_PUZZLE",
+                "LEVER_LOCKSTONE_NORTH_PUZZLE",
+                "LEVER_LOCKSTONE_SHRINE",
+                "LEVER_LOCKSTONE_HOOKSHOT_PUZZLE",
+                "LEVER_LOCKSTONE_UPPER_PUZZLE",
+                "LEVER_LOCKSTONE_UPPER_DUAL_LASER_PUZZLE"
+              ],
+              [
+                "LEVER_WATCHTOWERS_BEFORE_ICE_ARENA",
+                "LEVER_WATCHTOWERS_AFTER_ICE_SKATING",
+                "LEVER_WATCHTOWERS_AFTER_BOOMERS"
+              ],
+              [
+                "LEVER_RUINS_SETTLEMENT_GATE",
+                "LEVER_RUINS_UPPER_DUNGEON_ENTRANCE",
+                "LEVER_RUINS_LADDER_LEFT_OF_LORD_OF_DOORS_ARENA",
+                "LEVER_RUINS_ENTRANCE_LADDER_SHORTCUT",
+                "LEVER_RUINS_MAIN_GATE",
+                "LEVER_DUNGEON_ENTRANCE_RIGHT_GATE",
+                "LEVER_DUNGEON_ENTRANCE_LEFT_GATE",
+                "LEVER_DUNGEON_ABOVE_RIGHTMOST_CROW"
+              ],
+              [
+                "LEVER_FORTRESS_BOMB",
+                "LEVER_FORTRESS_MAIN_GATE",
+                "LEVER_FORTRESS_CENTRAL_SHORTCUT",
+                "LEVER_FORTRESS_STATUE",
+                "LEVER_FORTRESS_WATCHTOWER_LOWER",
+                "LEVER_FORTRESS_BRIDGE",
+                "LEVER_FORTRESS_PRE_MAIN_GATE",
+                "LEVER_FORTRESS_WATCHTOWER_UPPER",
+                "LEVER_FORTRESS_NORTH_WEST"
+              ],
+              [
+                "LEVER_ESTATE_ELEVATOR_LEFT",
+                "LEVER_ESTATE_ELEVATOR_RIGHT",
+                "LEVER_GARDEN_OF_LOVE",
+                "LEVER_GARDEN_OF_LIFE_END",
+                "LEVER_GARDEN_OF_PEACE",
+                "LEVER_GARDEN_OF_JOY",
+                "LEVER_GARDEN_OF_LOVE_TURNCAM",
+                "LEVER_GARDEN_OF_LIFE_LANTERNS",
+                "LEVER_ESTATE_UNDERGROUND_URN_SHED",
+                "LEVER_MANOR_BIG_POT_ARENA",
+                "LEVER_MANOR_BOOKSHELF_SHORTCUT"
+              ],
+              [],
+              [
+                "GROVE_OF_SPIRITS_DOOR",
+                "LOST_CEMETERY_DOOR",
+                "STRANDED_SAILOR_DOOR",
+                "CASTLE_LOCKSTONE_DOOR",
+                "CAMP_OF_THE_FREE_CROWS_DOOR",
+                "OLD_WATCHTOWERS_DOOR",
+                "BETTYS_LAIR_DOOR",
+                "OVERGROWN_RUINS_DOOR"
+              ],
+              [
+                "MUSHROOM_DUNGEON_DOOR",
+                "FLOODED_FORTRESS_DOOR",
+                "THRONE_OF_THE_FROG_KING_DOOR",
+                "ESTATE_OF_THE_URN_WITCH_DOOR",
+                "CERAMIC_MANOR_DOOR",
+                "INNER_FURNACE_DOOR",
+                "THE_URN_WITCHS_LABORATORY_DOOR"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
