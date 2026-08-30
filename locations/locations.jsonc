@@ -1,6 +1,6 @@
 [
   {
-    "name": "Hall_of_Doors", //should be done?
+    "name": "Hall_of_Doors", //Estate door couldn't open, but I'm confident the Ava-1 checks are correct.
     "children": [
       // SPELLS ============================================================
       {
@@ -18,7 +18,7 @@
         ]
       },
       {
-        "name": "Hall of Doors - Bomb Avarice",
+        "name": "Hall of Doors - Bomb Avarice", //confirmed
         "access_rules": [
           "$AncientDoor2Open",
           "LEVER_BOMB_EXIT"
@@ -33,7 +33,7 @@
         ]
       },
       {
-        "name": "Hall of Doors - Hookshot Avarice",
+        "name": "Hall of Doors - Hookshot Avarice", //confirmed
         "access_rules": [
           "$AncientDoor3Open",
           "hookshot"
@@ -97,7 +97,7 @@
         ]
       },
       {
-        "name": "Soul Orb Bomb Avarice Return",
+        "name": "Soul Orb Bomb Avarice Return", //confirmed
         "access_rules": [
           "$AncientDoor2Open",
           "LEVER_BOMB_EXIT"
@@ -112,7 +112,7 @@
         ]
       },
       {
-        "name": "Soul Orb Hookshot Avarice Return",
+        "name": "Soul Orb Hookshot Avarice Return", //confirmed
         "access_rules": [
           "$AncientDoor3Open",
           "hookshot"
@@ -127,7 +127,7 @@
         ]
       },
       {
-        "name": "Soul Orb surveilence island",
+        "name": "Soul Orb surveilence island", //confirmed
         "access_rules": [
           "bomb"
         ],
@@ -141,7 +141,7 @@
         ]
       },
       {
-        "name": "Soul Orb Modern Door island",
+        "name": "Soul Orb Modern Door island", //confirmed
         "access_rules": [
           "hookshot"
         ],
@@ -155,7 +155,7 @@
         ]
       },
       {
-        "name": "Soul Orb Ancient Door Island",
+        "name": "Soul Orb Ancient Door Island", //confirmed
         "access_rules": [
           "fire"
         ],
@@ -170,7 +170,7 @@
       },
       // SHINIES ============================================================
       {
-        "name": "Ancient Door Scale Model",
+        "name": "Ancient Door Scale Model", //confirmed
         "access_rules": [
           "fire"        
         ],
@@ -184,7 +184,7 @@
         ]
       },
       {
-        "name": "Modern Door Scale Model",
+        "name": "Modern Door Scale Model", //confirmed
         "access_rules": [
           "hookshot"
         ],
@@ -198,7 +198,7 @@
         ]
       },
       {
-        "name": "Rusty Bell Tower Key",
+        "name": "Rusty Bell Tower Key", //confirmed
         "access_rules": [
           "$CanFightLord"
         ],
@@ -212,7 +212,7 @@
         ]
       },
       {
-        "name": "Surveilence Device",
+        "name": "Surveilence Device", //confirmed
         "access_rules": [
           "bomb"               
         ],
@@ -227,7 +227,7 @@
       },
       // LEVERS ============================================================
       {
-        "name": "Bomb Return Lever",
+        "name": "Bomb Return Lever", //confirmed
         "access_rules": [
           "$AncientDoor2Open",
           "LEVER_BOMB_EXIT"
@@ -246,10 +246,10 @@
   },
   //---------------------------------------------------------------------------------------------
   {
-    "name": "GROVE_OF_SPIRITS",
+    "name": "GROVE_OF_SPIRITS", //door check maybe not needed?
     "children": [
       {
-        "name": "Grove of Spirits Door",
+        "name": "Grove of Spirits Door", //Maybe not needed?
         "access_rules": [
           "GROVE_OF_SPIRITS_DOOR",
           "LOST_CEMETERY_DOOR"
@@ -264,7 +264,7 @@
         ]
       },
       {
-        "name": "Makeshift Soul Key",
+        "name": "Makeshift Soul Key", //confirmed
         "access_rules": [
           "GROVE_OF_SPIRITS_DOOR, Hookshot",
           "LOST_CEMETERY_DOOR, Hookshot"
@@ -282,11 +282,11 @@
   },
   //---------------------------------------------------------------------------------------
   {
-    "name": "Lost_Cemetary",
+    "name": "Lost_Cemetary", //confirmed
     "children": [
       // SEEDS =======================================
       {
-        "name": "SEED_CEMETERY_BROKEN_BRIDGE",
+        "name": "SEED_CEMETERY_BROKEN_BRIDGE", //confirmed
         "access_rules": [
          "$SteadhoneAccess"
         ],
@@ -300,7 +300,7 @@
         ]
       },
       {
-        "name": "SEED_CATACOMBS_TOWER",
+        "name": "SEED_CATACOMBS_TOWER", //confirmed
         "access_rules": [
           "$CemetaryEntrance"
         ],
@@ -314,7 +314,7 @@
         ]
       },
       {
-        "name": "SEED_CEMETERY_NEAR_TABLET_GATE",
+        "name": "SEED_CEMETERY_NEAR_TABLET_GATE", //confirmed
         "access_rules": [
           "$BridgeEndAccess"
         ],
@@ -328,7 +328,7 @@
         ]
       },
       {
-        "name": "SEED_CEMETERY_LEFT_OF_MAIN_ENTRANCE",
+        "name": "SEED_CEMETERY_LEFT_OF_MAIN_ENTRANCE", //confirmed
         "access_rules": [
           "$CemetaryEntrance"
         ],
@@ -343,7 +343,7 @@
       },
       // SPELLS =======================================
       {
-        "name": "BOMB_SILENT_SERVANT",
+        "name": "BOMB_SILENT_SERVANT", //confirmed
         "access_rules": [
          "$EastTreeAreaAccess, bomb"
         ],
@@ -357,7 +357,7 @@
         ]
       },
       {
-        "name": "Arrow Silent Servant",
+        "name": "Arrow Silent Servant", //confirmed
         "access_rules": [
           "$ArrowSilentServant"
         ],
@@ -372,7 +372,7 @@
       },
       // SHRINES ===================================
       {
-        "name": "HEART_SHRINE_CEMETERY_BEHIND_ENTRANCE",
+        "name": "HEART_SHRINE_CEMETERY_BEHIND_ENTRANCE", //confirmed
         "access_rules": [
           "$CemetaryEntrance, hookshot"
         ],
@@ -386,7 +386,7 @@
         ]
       },
       {
-        "name": "HEART_SHRINE_CEMETERY_WINDING_BRIDGE_END",
+        "name": "HEART_SHRINE_CEMETERY_WINDING_BRIDGE_END", //confirmed
         "access_rules": [
           "$SteadhoneAccess, LEVER_CATACOMBS_TOWER"
         ],
@@ -400,7 +400,7 @@
         ]
       },
       {
-        "name": "MAGIC_SHRINE_CEMETERY_AFTER_SMOUGH_ARENA",
+        "name": "MAGIC_SHRINE_CEMETERY_AFTER_SMOUGH_ARENA", //confirmed
         "access_rules": [
           "$StrandedSailorCavesAccess"
         ],
@@ -415,7 +415,7 @@
       },
       // SOUL ORBS======================================================
       {
-        "name": "SOUL_ORB_CEMETERY_HOOKSHOT_TOWERS",
+        "name": "SOUL_ORB_CEMETERY_HOOKSHOT_TOWERS", //confirmed
         "access_rules": [
           "$EastTreeAreaAccess, hookshot"
         ],
@@ -429,7 +429,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_CEMETERY_UNDER_BRIDGE",
+        "name": "SOUL_ORB_CEMETERY_UNDER_BRIDGE", //confirmed
         "access_rules": [
           "$CemetaryEntrance",
           "$CemetaryEntranceExternal"
@@ -444,7 +444,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_CEMETERY_EAST_TREE",
+        "name": "SOUL_ORB_CEMETERY_EAST_TREE", //confirmed
         "access_rules": [
           "$EastTreeAreaAccess"
         ],
@@ -458,7 +458,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_CEMETERY_WINDING_BRIDGE_END",
+        "name": "SOUL_ORB_CEMETERY_WINDING_BRIDGE_END", //confirmed
         "access_rules": [
           "$BridgeEndAccess, bomb"
         ],
@@ -472,7 +472,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_CEMETERY_GATED_SEWER",
+        "name": "SOUL_ORB_CEMETERY_GATED_SEWER", //confirmed
         "access_rules": [
           "$PeakAccess, LEVER_CEMETERY_SEWER"
         ],
@@ -486,7 +486,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_CEMETERY_CAVE",
+        "name": "SOUL_ORB_CEMETERY_CAVE", //confirmed
         "access_rules": [
           "$SteadhoneAccess"
         ],
@@ -500,7 +500,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_CATACOMBS_EXIT",
+        "name": "SOUL_ORB_CATACOMBS_EXIT", //confirmed
         "access_rules": [
           "$CatacombsRoomOneAccess"
         ],
@@ -514,7 +514,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_CATACOMBS_ROOM_2",
+        "name": "SOUL_ORB_CATACOMBS_ROOM_2", //confirmed
         "access_rules": [
           "$CatacombsFullAccess, fire"
         ],
@@ -528,7 +528,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_CATACOMBS_ROOM_1",
+        "name": "SOUL_ORB_CATACOMBS_ROOM_1", //confirmed
         "access_rules": [
           "$CatacombsRoomOneAccess"
         ],
@@ -542,7 +542,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_CATACOMBS_ENTRANCE",
+        "name": "SOUL_ORB_CATACOMBS_ENTRANCE", //confirmed
         "access_rules": [
           "$CemetaryEntranceExternal",
           "$CemetaryEntrance"
@@ -558,9 +558,10 @@
       },
       // KEYS ===========================================
       {
-        "name": "KEY_CEMETERY_CENTRAL",
+        "name": "KEY_CEMETERY_CENTRAL", //confirmed
         "access_rules": [
-          "$CemetaryEntranceExternal, $CemetaryEntrance"
+          "$CemetaryEntranceExternal",
+          "$CemetaryEntrance"
         ],
         "sections": [{}],
         "map_locations": [
@@ -572,7 +573,7 @@
         ]
       },
       {
-        "name": "KEY_CEMETERY_GREY_CROW",
+        "name": "KEY_CEMETERY_GREY_CROW", //confirmed
         "access_rules": [
           "$PeakAccess"
         ],
@@ -587,7 +588,7 @@
       },
       // SHINIES =======================================
       {
-        "name": "OLD_COMPASS",
+        "name": "OLD_COMPASS", //confirmed
         "access_rules": [
           "$CatacombsFullAccess"
         ],
@@ -601,7 +602,7 @@
         ]
       },
       {
-        "name": "INCENSE",
+        "name": "INCENSE", //confirmed
         "access_rules": [
           "$PeakAccess"
         ],
@@ -615,7 +616,7 @@
         ]
       },
       {
-        "name": "UNDYING_BLOSSOM",
+        "name": "UNDYING_BLOSSOM", //confirmed
         "access_rules": [
           "$CemetaryEntranceExternal, $CemetaryEntrance"
         ],
@@ -630,7 +631,7 @@
       },
       // TABLETS =======================================
       {
-        "name": "CYAN_ANCIENT_TABLET_OF_KNOWLEDGE",
+        "name": "CYAN_ANCIENT_TABLET_OF_KNOWLEDGE", //confirmed
         "access_rules": [
           "$HasNightAccess"
         ],
@@ -644,7 +645,7 @@
         ]
       },
       {
-        "name": "PURPLE_ANCIENT_TABLET_OF_KNOWLEDGE",
+        "name": "PURPLE_ANCIENT_TABLET_OF_KNOWLEDGE", //confirmed
         "access_rules": [
           "$HasNightAccess, MYSTERIOUS_LOCKET"
         ],
@@ -659,7 +660,7 @@
       },
       // LEVERS ======================================================
       {
-        "name": "LEVER_CEMETERY_SEWER",
+        "name": "LEVER_CEMETERY_SEWER", //confirmed
         "access_rules": [
           "$PeakAccess"
         ],
@@ -673,7 +674,7 @@
         ]
       },
       {
-        "name": "LEVER_GUARDIAN_OF_THE_DOOR_ACCESS",
+        "name": "LEVER_GUARDIAN_OF_THE_DOOR_ACCESS", //confirmed
         "access_rules": [
           "$PeakAccess",
           "$LegdayAccess, LEVER_CEMETERY_SHORTCUT_TO_EAST_TREE"
@@ -688,7 +689,7 @@
         ]
       },
       {
-        "name": "LEVER_CEMETERY_SHORTCUT_TO_EAST_TREE",
+        "name": "LEVER_CEMETERY_SHORTCUT_TO_EAST_TREE", //confirmed
         "access_rules": [
           "$EastTreeAreaAccess",
           "$LegdayAccess"
@@ -703,7 +704,7 @@
         ]
       },
       {
-        "name": "LEVER_CEMETERY_EAST_TREE",
+        "name": "LEVER_CEMETERY_EAST_TREE", //confirmed
         "access_rules": [
           "$PeakAccess, fire"
         ],
@@ -717,7 +718,7 @@
         ]
       },
       {
-        "name": "LEVER_CEMETERY_EXIT_TO_ESTATE",
+        "name": "LEVER_CEMETERY_EXIT_TO_ESTATE", //confirmed
         "access_rules": [
           "$PeakAccess, PINK_KEY",
           "$SteadhoneAccess, LEVER_CEMETERY_EXIT_TO_ESTATE"
@@ -732,7 +733,7 @@
         ]
       },
       {
-        "name": "LEVER_CATACOMBS_TOWER",
+        "name": "LEVER_CATACOMBS_TOWER", //confirmed
         "access_rules": [
           "$SteadhoneAccess"
         ],
@@ -746,7 +747,7 @@
         ]
       },
       {
-        "name": "LEVER_CATACOMBS_EXIT",
+        "name": "LEVER_CATACOMBS_EXIT", //confirmed
         "access_rules": [
           "$CatacombsRoomOneAccess"
         ],
@@ -754,14 +755,14 @@
         "map_locations": [
           {
             "map": "lost_cemetery",
-            "x": 1172,
+            "x": 1222,
             "y": 447
           }
         ]
       },
       // DOOR ======================================================
       {
-        "name": "LOST_CEMETERY_DOOR",
+        "name": "LOST_CEMETERY_DOOR", //confirmed
         "access_rules": [
           "$CemetaryEntrance",
           "$CemetaryEntranceExternal"
@@ -779,10 +780,10 @@
   },
   //-------------------------------------------------------------------------------------------------
   {
-    "name": "Crypt", //ALL ITEMS COMPLETE
+    "name": "Crypt", //confirmed
     "children": [
       {
-        "name": "FIRE_SILENT_SERVANT",
+        "name": "FIRE_SILENT_SERVANT", //confirmed
         "access_rules": [
           "$CryptAccess, fire"
         ],
@@ -796,7 +797,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_ESTATE_ACCESS_CRYPT",
+        "name": "SOUL_ORB_ESTATE_ACCESS_CRYPT", //confirmed
         "access_rules": [
           "$CryptAccess"
         ],
@@ -810,7 +811,7 @@
         ]
       },
       {
-        "name": "LEVER_ESTATE_ELEVATOR_RIGHT",
+        "name": "LEVER_ESTATE_ELEVATOR_RIGHT", //confirmed
         "access_rules": [
           "$CryptAccess"          
         ],
@@ -824,7 +825,7 @@
         ]
       },
       {
-        "name": "LEVER_ESTATE_ELEVATOR_LEFT",
+        "name": "LEVER_ESTATE_ELEVATOR_LEFT", //confirmed
         "access_rules": [
           "$CryptAccess"
         ],
@@ -841,10 +842,10 @@
   },
   //----------------------------------------------------------------------------------------------
   {
-    "name": "Estate_of_the_Urn_Witch",
+    "name": "Estate_of_the_Urn_Witch", //confirmed
     "children": [
       {
-        "name": "Rogue Daggers",
+        "name": "Rogue Daggers", //confirmed
         "access_rules": [
           "$ManorDoorAccess, LEVER_GARDEN_OF_LIFE_END"
         ],
@@ -853,12 +854,12 @@
           {
             "map": "estate_of_the_urn_witch",
             "x": 625,
-            "y": 306
+            "y": 245
           }
         ]
       },
       {
-        "name": "ESTATE_OF_THE_URN_WITCH_DOOR",
+        "name": "ESTATE_OF_THE_URN_WITCH_DOOR", //confirmed
         "access_rules": [
           "$EstateFrontAccess"
         ],
@@ -872,7 +873,7 @@
         ]
       },
       {
-        "name": "HEART_SHRINE_GARDEN_OF_LIFE",
+        "name": "HEART_SHRINE_GARDEN_OF_LIFE", //confirmed
         "access_rules": [
           "$ManorDoorAccess, fire"
         ],
@@ -886,9 +887,9 @@
         ]
       },
       {
-        "name": "MAGIC_SHRINE_ESTATE_LEFT_OF_MANOR",
+        "name": "MAGIC_SHRINE_ESTATE_LEFT_OF_MANOR", //confirmed
         "access_rules": [
-          "$ManorDoorAccess, LEVER_GARDEN_OF_LOVE"
+          "$ManorDoorAccess"
         ],
         "sections": [{}],
         "map_locations": [
@@ -900,7 +901,7 @@
         ]
       },
       {
-        "name": "SLUDGE_FILLED_URN",
+        "name": "SLUDGE_FILLED_URN", //confirmed
         "access_rules": [
           "$EstateFrontAccess, hookshot"
         ],
@@ -914,7 +915,7 @@
         ]
       },
       {
-        "name": "RUSTY_GARDEN_TROWEL",
+        "name": "RUSTY_GARDEN_TROWEL", //confirmed
         "access_rules": [
           "$ManorDoorAccess"
         ],
@@ -928,7 +929,7 @@
         ]
       },
       {
-        "name": "GREEN_ANCIENT_TABLET_OF_KNOWLEDGE",
+        "name": "GREEN_ANCIENT_TABLET_OF_KNOWLEDGE", //confirmed
         "access_rules": [
           
         ],
@@ -942,7 +943,7 @@
         ]
       },
       {
-        "name": "ESTATE_OWL",
+        "name": "ESTATE_OWL", //confirmed
         "access_rules": [
           "$HasNightAccess, ManorDoorAccess, LEVER_GARDEN_OF_LIFE_END",
           "$HasNightAccess, ManorDoorAccess, LEVER_GARDEN_OF_LIFE_LANTERNS"
@@ -957,7 +958,7 @@
         ]
       },
       {
-        "name": "SEED_ESTATE_ENTRANCE",
+        "name": "SEED_ESTATE_ENTRANCE", //confirmed
         "access_rules": [
           "$CryptAccess"
         ],
@@ -971,7 +972,7 @@
         ]
       },
       {
-        "name": "SEED_ESTATE_HEDGE_GAPS",
+        "name": "SEED_ESTATE_HEDGE_GAPS", //confirmed
         "access_rules": [
           "$EstateFrontAccess"
         ],
@@ -985,7 +986,7 @@
         ]
       },
       {
-        "name": "SEED_GARDEN_OF_JOY",
+        "name": "SEED_GARDEN_OF_JOY", //confirmed
         "access_rules": [
           "$EstateFrontAccess"
         ],
@@ -999,7 +1000,7 @@
         ]
       },
       {
-        "name": "SEED_ESTATE_FAMILY_TOMB",
+        "name": "SEED_ESTATE_FAMILY_TOMB", //confirmed
         "access_rules": [
           "$ManorDoorAccess"
         ],
@@ -1013,7 +1014,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_ESTATE_SECRET_CAVE",
+        "name": "SOUL_ORB_ESTATE_SECRET_CAVE", //confirmed
         "access_rules": [
           "$EstateFrontAccess"
         ],
@@ -1027,7 +1028,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_ESTATE_BALCONY",
+        "name": "SOUL_ORB_ESTATE_BALCONY", //confirmed
         "access_rules": [
           "$EstateFrontAccess"
         ],
@@ -1041,7 +1042,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_GARDEN_OF_LOVE_TURNCAM",
+        "name": "SOUL_ORB_GARDEN_OF_LOVE_TURNCAM", //confirmed
         "access_rules": [
           "$ManorDoorAccess"
         ],
@@ -1055,7 +1056,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_ESTATE_BROKEN_BOARDWALK",
+        "name": "SOUL_ORB_ESTATE_BROKEN_BOARDWALK", //confirmed
         "access_rules": [
           "$EstateFrontAccess, hookshot"
         ],
@@ -1069,9 +1070,9 @@
         ]
       },
       {
-        "name": "SOUL_ORB_ESTATE_TWIN_BENCHES",
+        "name": "SOUL_ORB_ESTATE_TWIN_BENCHES", //confirmed
         "access_rules": [
-          "$EstateFrontAccess, bomb"
+          "$EstateFrontAccess, bomb, fire"
         ],
         "sections": [{}],
         "map_locations": [
@@ -1083,7 +1084,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_GARDEN_OF_PEACE",
+        "name": "SOUL_ORB_GARDEN_OF_PEACE", //confirmed
         "access_rules": [
           "$EstateFrontAccess, bomb"
         ],
@@ -1097,7 +1098,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_ESTATE_SEWER_MIDDLE",
+        "name": "SOUL_ORB_ESTATE_SEWER_MIDDLE", //confirmed
         "access_rules": [
           "$EstateFrontAccess, hookshot"
         ],
@@ -1111,7 +1112,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_ESTATE_SEWER_END",
+        "name": "SOUL_ORB_ESTATE_SEWER_END", //confirmed
         "access_rules": [
           "$EstateFrontAccess, hookshot"
         ],
@@ -1125,7 +1126,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_GARDEN_OF_LOVE_BOMB_WALLS",
+        "name": "SOUL_ORB_GARDEN_OF_LOVE_BOMB_WALLS", //confirmed
         "access_rules": [
           "$ManorDoorAccess, bomb"
         ],
@@ -1139,7 +1140,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_GARDEN_OF_LIFE_BOMB_WALL",
+        "name": "SOUL_ORB_GARDEN_OF_LIFE_BOMB_WALL", //confirmed
         "access_rules": [
           "$ManorDoorAccess"
         ],
@@ -1153,7 +1154,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_GARDEN_OF_LIFE_HOOKSHOT_LOOP",
+        "name": "SOUL_ORB_GARDEN_OF_LIFE_HOOKSHOT_LOOP", //confirmed
         "access_rules": [
           "$ManorDoorAccess, hookshot"
         ],
@@ -1167,7 +1168,7 @@
         ]
       },
       {
-        "name": "LEVER_GARDEN_OF_PEACE",
+        "name": "LEVER_GARDEN_OF_PEACE", //confirmed
         "access_rules": [
           "$EstateFrontAccess"
         ],
@@ -1181,7 +1182,7 @@
         ]
       },
       {
-        "name": "LEVER_GARDEN_OF_JOY",
+        "name": "LEVER_GARDEN_OF_JOY", //confirmed
         "access_rules": [
           "$EstateFrontAccess"
         ],
@@ -1195,7 +1196,7 @@
         ]
       },
       {
-        "name": "LEVER_GARDEN_OF_LOVE_TURNCAM",
+        "name": "LEVER_GARDEN_OF_LOVE_TURNCAM", //confirmed
         "access_rules": [
           "$ManorDoorAccess"
         ],
@@ -1209,7 +1210,7 @@
         ]
       },
       {
-        "name": "LEVER_GARDEN_OF_LOVE",
+        "name": "LEVER_GARDEN_OF_LOVE",  //confirmed
         "access_rules": [
           "$ManorDoorAccess"
         ],
@@ -1223,7 +1224,7 @@
         ]
       },
       {
-        "name": "LEVER_GARDEN_OF_LIFE_END",
+        "name": "LEVER_GARDEN_OF_LIFE_END", //confirmed
         "access_rules": [
           "$ManorDoorAccess, LEVER_GARDEN_OF_LIFE_END",
           "$ManorDoorAccess, LEVER_GARDEN_OF_LIFE_LANTERNS"
@@ -1232,13 +1233,13 @@
         "map_locations": [
           {
             "map": "estate_of_the_urn_witch",
-            "x": 625,
+            "x": 675,
             "y": 245
           }
         ]
       },
       {
-        "name": "LEVER_GARDEN_OF_LIFE_LANTERNS",
+        "name": "LEVER_GARDEN_OF_LIFE_LANTERNS", //confirmed
         "access_rules": [
           "$ManorDoorAccess"
         ],
@@ -1252,7 +1253,7 @@
         ]
       },
       {
-        "name": "LEVER_ESTATE_UNDERGROUND_URN_SHED",
+        "name": "LEVER_ESTATE_UNDERGROUND_URN_SHED", //confirmed
         "access_rules": [
           "$EstateFrontAccess, hookshot"
         ],
@@ -1269,11 +1270,11 @@
   },
   //---------------------------------------------------------------------------------------
   {
-    "name": "Ceramic_Manor",
+    "name": "Ceramic_Manor", //confirmed
     "children": [
       //SEEDS =================================================================
       {
-        "name": "SEED_MANOR_MAIN_ROOM_UPPER", //9
+        "name": "SEED_MANOR_MAIN_ROOM_UPPER", //confirmed
         "access_rules": [
           "$ManorEntranceAccess"
         ],
@@ -1287,7 +1288,7 @@
         ]
       },
       {
-        "name": "SEED_MANOR_BELOW_BIG_POT_ARENA",//10
+        "name": "SEED_MANOR_BELOW_BIG_POT_ARENA", //confirmed
         "access_rules": [
           "$ManorEntranceAccess",
           "LEVER_MANOR_BIG_POT_ARENA"
@@ -1302,7 +1303,7 @@
         ]
       },
       {
-        "name": "SEED_MANOR_LIBRARY_SHELF",//11
+        "name": "SEED_MANOR_LIBRARY_SHELF", //confirmed
         "access_rules": [
           "$ManorBehindKey"
         ],
@@ -1316,9 +1317,9 @@
         ]
       },
       {
-        "name": "SEED_MANOR_NEAR_BRAZIER",//12
+        "name": "SEED_MANOR_NEAR_BRAZIER", //confirmed
         "access_rules": [
-          "$ManorBehindKey"
+          "$ManorEntranceAccess"
         ],
         "sections": [{}],
         "map_locations": [
@@ -1330,7 +1331,7 @@
         ]
       },
       {
-        "name": "SEED_MANOR_BOXES",//13
+        "name": "SEED_MANOR_BOXES", //confirmed
         "access_rules": [
           "$ManorBehindKey"
         ],
@@ -1344,7 +1345,7 @@
         ]
       },
       {
-        "name": "SEED_MANOR_SPINNY_POT_ROOM",//14
+        "name": "SEED_MANOR_SPINNY_POT_ROOM", //confirmed
         "access_rules": [
           "$ManorBehindKey"
         ],
@@ -1358,7 +1359,7 @@
         ]
       },
       {
-        "name": "SEED_MANOR_RAFTERS",//15
+        "name": "SEED_MANOR_RAFTERS", //confirmed
         "access_rules": [
           "$ManorBehindKey"
         ],
@@ -1373,7 +1374,7 @@
       },
       //SHRINES =================================================================
       {
-        "name": "MAGIC_SHRINE_MANOR_BATHROOM_PUZZLE",
+        "name": "MAGIC_SHRINE_MANOR_BATHROOM_PUZZLE", //confirmed
         "access_rules": [
           "$ManorBehindKey"
         ],
@@ -1388,7 +1389,7 @@
       },
       //SOUL ORBS =================================================================
       {
-        "name": "SOUL_ORB_MANOR_IMP_LOFT",
+        "name": "SOUL_ORB_MANOR_IMP_LOFT", //confirmed
         "access_rules": [
           "$ManorBehindKey"
         ],
@@ -1402,7 +1403,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_MANOR_CHANDELIER",
+        "name": "SOUL_ORB_MANOR_CHANDELIER", //confirmed
         "access_rules": [
           "$ManorBehindKey"
         ],
@@ -1416,7 +1417,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_MANOR_LIBRARY_SHELF",
+        "name": "SOUL_ORB_MANOR_LIBRARY_SHELF", //confirmed
         "access_rules": [
           "$ManorBehindKey"
         ],
@@ -1431,7 +1432,7 @@
       },
       //KEYS =================================================================
       {
-        "name": "KEY_MANOR_AFTER_SPINNY_POT_ROOM",
+        "name": "KEY_MANOR_AFTER_SPINNY_POT_ROOM", //confirmed
         "access_rules": [
           "$ManorBehindKey"
         ],
@@ -1445,7 +1446,7 @@
         ]
       },
       {
-        "name": "KEY_MANOR_UNDER_DINING_ROOM",
+        "name": "KEY_MANOR_UNDER_DINING_ROOM", //confirmed
         "access_rules": [
           "$ManorEntranceAccess"
         ],
@@ -1459,7 +1460,7 @@
         ]
       },
       {
-        "name": "KEY_MANOR_LIBRARY",
+        "name": "KEY_MANOR_LIBRARY", //confirmed
         "access_rules": [
           "$ManorBehindKey"
         ],
@@ -1474,7 +1475,7 @@
       },
       //SHINIES =================================================================
       {
-        "name": "ENGAGEMENT_RING",
+        "name": "ENGAGEMENT_RING", //confirmed
         "access_rules": [
           "$ManorBehindKey"
         ],
@@ -1488,7 +1489,7 @@
         ]
       },
       {
-        "name": "OLD_PHOTOGRAPH",
+        "name": "OLD_PHOTOGRAPH", //confirmed
         "access_rules": [
           "$ManorEntranceAccess, fire"
         ],
@@ -1503,7 +1504,7 @@
       },
       //LEVERS =================================================================
       {
-        "name": "LEVER_MANOR_BIG_POT_ARENA",
+        "name": "LEVER_MANOR_BIG_POT_ARENA", //confirmed
         "access_rules": [
           "$ManorBehindKey"
         ],
@@ -1517,7 +1518,7 @@
         ]
       },
       {
-        "name": "LEVER_MANOR_BOOKSHELF_SHORTCUT",
+        "name": "LEVER_MANOR_BOOKSHELF_SHORTCUT", //confirmed
         "access_rules": [
           "$ManorBehindKey"
         ],
@@ -1532,7 +1533,7 @@
       },
       //DOOR =================================================================
       {
-        "name": "CERAMIC_MANOR_DOOR",
+        "name": "CERAMIC_MANOR_DOOR", //confirmed
         "access_rules": [
           "$ManorEntranceAccess"
         ],
@@ -1547,7 +1548,7 @@
       },
       //CROWS =================================================================
       {
-        "name": "CROW_MANOR_LIBRARY",
+        "name": "CROW_MANOR_LIBRARY", //confirmed
         "access_rules": [
           "$ManorBehindKey"
         ],
@@ -1561,7 +1562,7 @@
         ]
       },
       {
-        "name": "CROW_MANOR_BEDROOM",
+        "name": "CROW_MANOR_BEDROOM", //confirmed
         "access_rules": [
           "$ManorBehindKey"
         ],
@@ -1575,7 +1576,7 @@
         ]
       },
       {
-        "name": "CROW_MANOR_IMP_LOFT",
+        "name": "CROW_MANOR_IMP_LOFT", //confirmed
         "access_rules": [
           "$ManorBehindKey"
         ],
@@ -1589,7 +1590,7 @@
         ]
       },
       {
-        "name": "CROW_MANOR_AFTER_TORCH_PUZZLE",
+        "name": "CROW_MANOR_AFTER_TORCH_PUZZLE", //confirmed
         "access_rules": [
           "$ManorEntranceAccess"
         ],
@@ -1606,11 +1607,11 @@
   },
   //----------------------------------------------------------------------------------------
   {
-    "name": "Furnace_Observation_Room",
+    "name": "Furnace_Observation_Room", //confirmed
     "children": [
       // SEEDS ===================================================================
       {
-        "name": "Entrance Life Seed",
+        "name": "Entrance Life Seed", //confirmed
         "access_rules": [
           "$FurnaceObservationRoomAccess"
         ],
@@ -1624,7 +1625,7 @@
         ]
       },
       {
-        "name": "Cart Puzzle Life Seed",
+        "name": "Cart Puzzle Life Seed", //confirmed
         "access_rules": [
           "$FurnaceObservationRoomAccess"
         ],
@@ -1639,7 +1640,7 @@
       },
       // SHRINES ==============================================================
       {
-        "name": "Cart Puzzle Heart Shrine",
+        "name": "Cart Puzzle Heart Shrine", //confirmed
         "access_rules": [
           "$FurnaceObservationRoomAccess"
         ],
@@ -1654,7 +1655,7 @@
       },
       // SOUL ORBS ============================================================
       {
-        "name": "Furnace Sewer Soul Orb",
+        "name": "Furnace Sewer Soul Orb", //confirmed
         "access_rules": [
           "$FurnaceObservationRoomAccess"
         ],
@@ -1668,7 +1669,7 @@
         ]
       },
       {
-        "name": "Lab Soul Orb",
+        "name": "Lab Soul Orb", //confirmed
         "access_rules": [
           "$FurnaceObservationRoomAccess, fire"
         ],
@@ -1682,7 +1683,7 @@
         ]
       },
       {
-        "name": "Lantern Chain Soul Orb",
+        "name": "Lantern Chain Soul Orb", //confirmed
         "access_rules": [
           "$FurnaceObservationRoomAccess, fire"
         ],
@@ -1699,11 +1700,11 @@
   },
   //-----------------------------------------------------------------------------------------
   {
-    "name": "Inner_Furnace",
+    "name": "Inner_Furnace", //confirmed
     "children": [
       // SEEDS================================================================
       {
-        "name": "SEED_INNER_FURNACE_CONVEYOR_BRIDGE",
+        "name": "SEED_INNER_FURNACE_CONVEYOR_BRIDGE", //confirmed
         "access_rules": [
           "$FurnaceObservationRoomAccess, fire"
           
@@ -1718,7 +1719,7 @@
         ]
       },
       {
-        "name": "SEED_INNER_FURNACE_HORIZONTAL_PISTONS",
+        "name": "SEED_INNER_FURNACE_HORIZONTAL_PISTONS", //confirmed
         "access_rules": [
           "$FurnaceObservationRoomAccess, fire"
         ],
@@ -1732,8 +1733,9 @@
         ]
       },
       {
-        "name": "SEED_INNER_FURNACE_CONVEYOR_GAUNTLET",
+        "name": "SEED_INNER_FURNACE_CONVEYOR_GAUNTLET", //confirmed
         "access_rules": [
+          "$FurnaceObservationRoomAccess, fire"
         ],
         "sections": [{}],
         "map_locations": [
@@ -1746,7 +1748,7 @@
       },
       // DOOR==============================================================================
       {
-        "name": "INNER_FURNACE_DOOR",
+        "name": "INNER_FURNACE_DOOR", //confirmed
         "access_rules": [
           "$FurnaceObservationRoomAccess"
         ],
@@ -1763,10 +1765,10 @@
   },
   //-----------------------------------------------------------------------------------------
   {
-    "name": "The_Urn_Witchs_Laboratory",//ALL ITEMS COMPLETE
+    "name": "The_Urn_Witchs_Laboratory", //confirmed
     "children": [
       {
-        "name": "THE_URN_WITCHS_LABORATORY_DOOR",
+        "name": "THE_URN_WITCHS_LABORATORY_DOOR", //confirmed
         "access_rules": [
           "$FurnaceObservationRoomAccess, fire",
           "THE_URN_WITCHS_LABORATORY_DOOR"
@@ -1781,7 +1783,7 @@
         ]
       },
       {
-        "name": "Grandma",
+        "name": "Grandma", //confirmed
         "access_rules": [
           "$FurnaceObservationRoomAccess, fire",
           "THE_URN_WITCHS_LABORATORY_DOOR"
@@ -1799,11 +1801,11 @@
   },
   //-----------------------------------------------------------------------------------------
   {
-    "name": "Overgrown_Ruins",
+    "name": "Overgrown_Ruins", //confirmed
     "children": [
       // WEAPONS============================================================
       {
-        "name": "THUNDER_HAMMER",
+        "name": "THUNDER_HAMMER", //confirmed
         "access_rules": [
           "$RuinGateAccess, MAGICAL_FOREST_HORN"
         ],
@@ -1818,7 +1820,7 @@
       },
       // SEEDS============================================================
       {
-        "name": "SEED_RUINS_BEHIND_BOXES",
+        "name": "SEED_RUINS_BEHIND_BOXES", //confirmed
         "access_rules": [
           "$RuinGateAccess"
         ],
@@ -1827,12 +1829,12 @@
           {
             "map": "overgrown_ruins",
             "x": 495,
-            "y": 391
+            "y": 341
           }
         ]
       },
       {
-        "name": "SEED_RUINS_FIRE_PLANT_CORRIDOR",
+        "name": "SEED_RUINS_FIRE_PLANT_CORRIDOR", //confirmed
         "access_rules": [
           "$RuinGateAccess"
         ],
@@ -1846,7 +1848,7 @@
         ]
       },
       {
-        "name": "SEED_RUINS_ON_SETTLEMENT_WALL",
+        "name": "SEED_RUINS_ON_SETTLEMENT_WALL", //confirmed
         "access_rules": [
           "$RuinGateAccess"
         ],
@@ -1860,7 +1862,7 @@
         ]
       },
       {
-        "name": "SEED_RUINS_RIGHT_MIDDLE",
+        "name": "SEED_RUINS_RIGHT_MIDDLE", //confirmed
         "access_rules": [
           "$RuinGateAccess"
         ],
@@ -1874,7 +1876,7 @@
         ]
       },
       {
-        "name": "SEED_RUINS_LORD_OF_DOORS_ARENA",
+        "name": "SEED_RUINS_LORD_OF_DOORS_ARENA", //confirmed
         "access_rules": [
           "$RuinGateAccess"
         ],
@@ -1888,7 +1890,7 @@
         ]
       },
       {
-        "name": "SEED_RUINS_DOWN_THROUGH_BOMB_WALL",
+        "name": "SEED_RUINS_DOWN_THROUGH_BOMB_WALL", //confirmed
         "access_rules": [
           "$RuinGateAccess"
         ],
@@ -1902,7 +1904,7 @@
         ]
       },
       {
-        "name": "SEED_DUNGEON_AVARICE_BRIDGE",
+        "name": "SEED_DUNGEON_AVARICE_BRIDGE", //confirmed
         "access_rules": [
           "$DungeonsAccess"
         ],
@@ -1916,7 +1918,7 @@
         ]
       },
       {
-        "name": "SEED_DUNGEON_FIRE_PUZZLE_NEAR_WATER_ARENA",
+        "name": "SEED_DUNGEON_FIRE_PUZZLE_NEAR_WATER_ARENA", //confirmed
         "access_rules": [
           "$DungeonRequiresKey, fire",
           "$DungeonsAccess, LEVER_DUNGEON_ENTRANCE_LEFT_GATE"
@@ -1931,7 +1933,7 @@
         ]
       },
       {
-        "name": "SEED_DUNGEON_RIGHT_ABOVE_KEY",
+        "name": "SEED_DUNGEON_RIGHT_ABOVE_KEY", //confirmed
         "access_rules": [
           "$DungeonsAccess"
         ],
@@ -1945,7 +1947,7 @@
         ]
       },
       {
-        "name": "SEED_DUNGEON_ABOVE_RIGHTMOST_CROW",
+        "name": "SEED_DUNGEON_ABOVE_RIGHTMOST_CROW", //confirmed
         "access_rules": [
           "$DungeonRequiresKey"
         ],
@@ -1959,7 +1961,7 @@
         ]
       },
       {
-        "name": "SEED_DUNGEON_WATER_ARENA_LEFT_EXIT",
+        "name": "SEED_DUNGEON_WATER_ARENA_LEFT_EXIT", //confirmed
         "access_rules": [
           "$DungeonRequiresKey"
         ],
@@ -1974,7 +1976,7 @@
       },
       // SHRINES ============================================================
       {
-        "name": "HEART_SHRINE_RUINS_SEWER",
+        "name": "HEART_SHRINE_RUINS_SEWER", //confirmed
         "access_rules": [
           "$RuinGateAccess"
         ],
@@ -1988,7 +1990,7 @@
         ]
       },
       {
-        "name": "MAGIC_SHRINE_RUINS_HOOKSHOT_ARENA",
+        "name": "MAGIC_SHRINE_RUINS_HOOKSHOT_ARENA", //confirmed
         "access_rules": [
           "$LegdayAccess, hookshot"
         ],
@@ -2002,7 +2004,7 @@
         ]
       },
       {
-        "name": "MAGIC_SHRINE_RUINS_TURNCAM",
+        "name": "MAGIC_SHRINE_RUINS_TURNCAM", //confirmed
         "access_rules": [
           "$RuinGateAccess"
         ],
@@ -2016,7 +2018,7 @@
         ]
       },
       {
-        "name": "HEART_SHRINE_DUNGEON_WATER_ARENA",
+        "name": "HEART_SHRINE_DUNGEON_WATER_ARENA", //confirmed
         "access_rules": [
           "$DungeonRequiresKey, bomb"
         ],
@@ -2031,7 +2033,7 @@
       },
       //SOUL ORBS ======================================================
       {
-        "name": "SOUL_ORB_RUINS_LEFT_AFTER_KEY_DOOR",
+        "name": "SOUL_ORB_RUINS_LEFT_AFTER_KEY_DOOR", //confirmed
         "access_rules": [
           "$RuinGateAccess"
         ],
@@ -2045,7 +2047,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_RUINS_ABOVE_THREE_PLANTS",
+        "name": "SOUL_ORB_RUINS_ABOVE_THREE_PLANTS", //confirmed
         "access_rules": [
           "$RuinGateAccess"
         ],
@@ -2059,7 +2061,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_RUINS_UP_TURNCAM_LADDER",
+        "name": "SOUL_ORB_RUINS_UP_TURNCAM_LADDER", //confirmed
         "access_rules": [
           "$RuinGateAccess"
         ],
@@ -2073,7 +2075,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_RUINS_UPPER_BOMB_WALL",
+        "name": "SOUL_ORB_RUINS_UPPER_BOMB_WALL", //confirmed
         "access_rules": [
           "$RuinGateAccess"
         ],
@@ -2087,7 +2089,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_RUINS_UPPER_ABOVE_HORN",
+        "name": "SOUL_ORB_RUINS_UPPER_ABOVE_HORN", //confirmed
         "access_rules": [
           "$RuinGateAccess"
         ],
@@ -2101,7 +2103,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_RUINS_LORD_OF_DOORS_ARENA_HOOKSHOT",
+        "name": "SOUL_ORB_RUINS_LORD_OF_DOORS_ARENA_HOOKSHOT", //confirmed
         "access_rules": [
           "$RuinGateAccess, hookshot"
         ],
@@ -2115,7 +2117,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_RUINS_STUMP",
+        "name": "SOUL_ORB_RUINS_STUMP", //confirmed
         "access_rules": [
           "$RuinGateAccess"
         ],
@@ -2129,7 +2131,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_RUINS_OUTSIDE_LEFT_DUNGEON_EXIT",
+        "name": "SOUL_ORB_RUINS_OUTSIDE_LEFT_DUNGEON_EXIT", //confirmed
         "access_rules": [
           "$DungeonsAccess"
         ],
@@ -2143,7 +2145,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_RUINS_LOWER_HOOKSHOT",
+        "name": "SOUL_ORB_RUINS_LOWER_HOOKSHOT", //confirmed
         "access_rules": [
           "$RuinGateAccess, hookshot"
         ],
@@ -2157,7 +2159,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_RUINS_ABOVE_ENTRANCE_GATE",
+        "name": "SOUL_ORB_RUINS_ABOVE_ENTRANCE_GATE", //confirmed
         "access_rules": [
           "$RuinGateAccess, hookshot"
         ],
@@ -2171,7 +2173,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_RUINS_LOWER_BOMB_WALL",
+        "name": "SOUL_ORB_RUINS_LOWER_BOMB_WALL", //confirmed
         "access_rules": [
           "$RuinGateAccess, bomb"
         ],
@@ -2185,7 +2187,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_DUNGEON_COBWEB",
+        "name": "SOUL_ORB_DUNGEON_COBWEB", //confirmed
         "access_rules": [
           "$DungeonsAccess, fire"
         ],
@@ -2199,7 +2201,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_DUNGEON_VINE",
+        "name": "SOUL_ORB_DUNGEON_VINE", //confirmed
         "access_rules": [
           "$DungeonRequiresKey"
         ],
@@ -2213,7 +2215,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_DUNGEON_LEFT_EXIT_SHELF",
+        "name": "SOUL_ORB_DUNGEON_LEFT_EXIT_SHELF", //confirmed
         "access_rules": [
           "$DungeonsAccess"
         ],
@@ -2227,7 +2229,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_DUNGEON_LOWER_ENTRANCE",
+        "name": "SOUL_ORB_DUNGEON_LOWER_ENTRANCE", //confirmed
         "access_rules": [
           "$RuinGateAccess, bomb"
         ],
@@ -2242,7 +2244,7 @@
       },
       // KEYS ================================================================
       {
-        "name": "KEY_OVERGROWN_RUINS",
+        "name": "KEY_OVERGROWN_RUINS", //confirmed
         "access_rules": [
           "$RuinGateAccess"
         ],
@@ -2256,8 +2258,9 @@
         ]
       },
       {
-        "name": "KEY_DUNGEON_HALL",
+        "name": "KEY_DUNGEON_HALL", //confirmed
         "access_rules": [
+          "$DungeonsAccess"
         ],
         "sections": [{}],
         "map_locations": [
@@ -2269,7 +2272,7 @@
         ]
       },
       {
-        "name": "KEY_DUNGEON_RIGHT",
+        "name": "KEY_DUNGEON_RIGHT", //confirmed
         "access_rules": [
           "$DungeonsAccess"
         ],
@@ -2283,7 +2286,7 @@
         ]
       },
       {
-        "name": "KEY_DUNGEON_NEAR_WATER_ARENA",
+        "name": "KEY_DUNGEON_NEAR_WATER_ARENA", //confirmed
         "access_rules": [
           "$DungeonsAccess, fire"
         ],
@@ -2298,7 +2301,7 @@
       },
       // Shinies =============================================================
       {
-        "name": "MALFORMED_SEED",
+        "name": "MALFORMED_SEED", //confirmed
         "access_rules": [
           "$RuinGateAccess, hookshot"
         ],
@@ -2307,12 +2310,12 @@
           {
             "map": "overgrown_ruins",
             "x": 459,
-            "y": 447
+            "y": 467
           }
         ]
       },
       {
-        "name": "CORRUPTED_ANTLER",
+        "name": "CORRUPTED_ANTLER", //confirmed
         "access_rules": [
           "$DungeonsAccess, bomb"
         ],
@@ -2326,7 +2329,7 @@
         ]
       },
       {
-        "name": "MAGICAL_FOREST_HORN",
+        "name": "MAGICAL_FOREST_HORN", //confirmed
         "access_rules": [
           "$RuinGateAccess"
         ],
@@ -2341,7 +2344,7 @@
       },
       //TABLETS =============================================================
       {
-        "name": "RUINS_OWL",
+        "name": "RUINS_OWL", //confirmed
         "access_rules": [
           "$RuinGateAccess, $HasNightAccess"
         ],
@@ -2355,7 +2358,7 @@
         ]
       },
       {
-        "name": "YELLOW_ANCIENT_TABLET_OF_KNOWLEDGE",
+        "name": "YELLOW_ANCIENT_TABLET_OF_KNOWLEDGE", //confirmed
         "access_rules": [
           "$LegdayAccess, $HasNightAccess"
         ],
@@ -2371,7 +2374,7 @@
 
       //LEVERS ================================================================
       {
-        "name": "LEVER_RUINS_SETTLEMENT_GATE",
+        "name": "LEVER_RUINS_SETTLEMENT_GATE", //confirmed
         "access_rules": [
           "$RuinGateAccess"
         ],
@@ -2385,7 +2388,7 @@
         ]
       },
       {
-        "name": "LEVER_RUINS_LADDER_LEFT_OF_LORD_OF_DOORS_ARENA",
+        "name": "LEVER_RUINS_LADDER_LEFT_OF_LORD_OF_DOORS_ARENA", //confirmed
         "access_rules": [
           "$RuinGateAccess"
         ],
@@ -2399,7 +2402,7 @@
         ]
       },
       {
-        "name": "LEVER_RUINS_MAIN_GATE",
+        "name": "LEVER_RUINS_MAIN_GATE", //confirmed
         "access_rules": [
           "$LegdayAccess"
         ],
@@ -2413,8 +2416,9 @@
         ]
       },
       {
-        "name": "LEVER_RUINS_UPPER_DUNGEON_ENTRANCE",
+        "name": "LEVER_RUINS_UPPER_DUNGEON_ENTRANCE", //confirmed
         "access_rules": [
+          "$RuinGateAccess"
         ],
         "sections": [{}],
         "map_locations": [
@@ -2426,7 +2430,7 @@
         ]
       },
       {
-        "name": "LEVER_RUINS_ENTRANCE_LADDER_SHORTCUT",
+        "name": "LEVER_RUINS_ENTRANCE_LADDER_SHORTCUT", //confirmed
         "access_rules": [
           "$RuinGateAccess"
         ],
@@ -2440,7 +2444,7 @@
         ]
       },
       {
-        "name": "LEVER_DUNGEON_ENTRANCE_RIGHT_GATE",
+        "name": "LEVER_DUNGEON_ENTRANCE_RIGHT_GATE", //confirmed
         "access_rules": [
           "$DungeonsAccess"
         ],
@@ -2454,7 +2458,7 @@
         ]
       },
       {
-        "name": "LEVER_DUNGEON_ENTRANCE_LEFT_GATE",
+        "name": "LEVER_DUNGEON_ENTRANCE_LEFT_GATE", //confirmed
         "access_rules": [
           "$DungeonRequiresKey"
         ],
@@ -2468,7 +2472,7 @@
         ]
       },
       {
-        "name": "LEVER_DUNGEON_ABOVE_RIGHTMOST_CROW",
+        "name": "LEVER_DUNGEON_ABOVE_RIGHTMOST_CROW", //confirmed
         "access_rules": [
           "$DungeonRequiresKey"
         ],
@@ -2483,7 +2487,7 @@
       },
       //DOOR ====================================================================
       {
-        "name": "OVERGROWN_RUINS_DOOR",
+        "name": "OVERGROWN_RUINS_DOOR", //confirmed
         "access_rules": [
           "$RuinGateAccess"
         ],
@@ -2497,7 +2501,7 @@
         ]
       },
       {
-        "name": "MUSHROOM_DUNGEON_DOOR",
+        "name": "MUSHROOM_DUNGEON_DOOR", //confirmed
         "access_rules": [
           "$DungeonsAccess"
         ],
@@ -2512,7 +2516,7 @@
       },
       //CROWS ====================================================================
       {
-        "name": "CROW_DUNGEON_HALL",
+        "name": "CROW_DUNGEON_HALL", //confirmed
         "access_rules": [
           "$DungeonsAccess"
         ],
@@ -2526,7 +2530,7 @@
         ]
       },
       {
-        "name": "CROW_DUNGEON_WATER_ARENA",
+        "name": "CROW_DUNGEON_WATER_ARENA", //confirmed
         "access_rules": [
           "$DungeonRequiresKey"
         ],
@@ -2540,7 +2544,7 @@
         ]
       },
       {
-        "name": "CROW_DUNGEON_COBWEB",
+        "name": "CROW_DUNGEON_COBWEB", //confirmed
         "access_rules": [
           "$DungeonsAccess"
         ],
@@ -2554,7 +2558,7 @@
         ]
       },
       {
-        "name": "CROW_DUNGEON_RIGHTMOST",
+        "name": "CROW_DUNGEON_RIGHTMOST", //confirmed
         "access_rules": [
           "$DungeonRequiresKey"
         ],
@@ -2571,11 +2575,11 @@
   },
   //-----------------------------------------------------------------------------------------
   {
-    "name": "Flooded_Fortress",
+    "name": "Flooded_Fortress", //confirmed
     "children": [
       //SEEDS =====================================================================
       {
-        "name": "SEED_FORTRESS_WATCHTOWER",
+        "name": "SEED_FORTRESS_WATCHTOWER", //confirmed
         "access_rules": [
           "$FortressWatchtowerAccess, LEVER_FORTRESS_WATCHTOWER_UPPER"
         ],
@@ -2589,7 +2593,7 @@
         ]
       },
       {
-        "name": "SEED_FORTRESS_STATUE",
+        "name": "SEED_FORTRESS_STATUE", //confirmed
         "access_rules": [
           "$FloodedFortressFrontAccess"
         ],
@@ -2603,7 +2607,7 @@
         ]
       },
       {
-        "name": "SEED_FORTRESS_INTRO_CRATE",
+        "name": "SEED_FORTRESS_INTRO_CRATE", //confirmed
         "access_rules": [
           "$FloodedFortressFrontAccess"
         ],
@@ -2617,9 +2621,9 @@
         ]
       },
       {
-        "name": "SEED_FORTRESS_EAST_AFTER_STATUE",
+        "name": "SEED_FORTRESS_BRIDGE", //confirmed
         "access_rules": [
-          "$FloodedFortressFrontAccess, $HasNightAccess, hookshot"
+          "$FloodedFortressFrontAccess"
         ],
         "sections": [{}],
         "map_locations": [
@@ -2631,9 +2635,9 @@
         ]
       },
       {
-        "name": "SEED_FORTRESS_BRIDGE",
+        "name": "SEED_FORTRESS_EAST_AFTER_STATUE", //confirmed
         "access_rules": [
-          "$FloodedFortressFrontAccess"
+          "$FloodedFortressFrontAccess, $HasNightAccess, hookshot"
         ],
         "sections": [{}],
         "map_locations": [
@@ -2646,7 +2650,7 @@
       },
       //SHRINES ================================================================
       {
-        "name": "MAGIC_SHRINE_FORTRESS_BOW_SECRET",
+        "name": "MAGIC_SHRINE_FORTRESS_BOW_SECRET", //confirmed
         "access_rules": [
           "$FloodedFortressFrontAccess"
         ],
@@ -2661,7 +2665,7 @@
       },
       //SOUL ORBS ===============================================================
       {
-        "name": "SOUL_ORB_FORTRESS_BOMB",
+        "name": "SOUL_ORB_FORTRESS_BOMB", //confirmed
         "access_rules": [
           "$FortressWatchtowerAccess, bomb"
         ],
@@ -2675,7 +2679,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_FORTRESS_HIDDEN_SEWER",
+        "name": "SOUL_ORB_FORTRESS_HIDDEN_SEWER", //confirmed
         "access_rules": [
           "$FortressWatchtowerAccess"
         ],
@@ -2689,7 +2693,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_FORTRESS_DROP",
+        "name": "SOUL_ORB_FORTRESS_DROP", //confirmed
         "access_rules": [
           "$FloodedFortressFrontAccess"
         ],
@@ -2704,7 +2708,7 @@
       },
       //TABLETS================================================================
       {
-        "name": "RED_ANCIENT_TABLET_OF_KNOWLEDGE",
+        "name": "RED_ANCIENT_TABLET_OF_KNOWLEDGE", //confirmed
         "access_rules": [
           "$FloodedFortressFrontAccess, $HasNightAccess, hookshot, $HasStrandedSailorAccess"
         ],
@@ -2719,7 +2723,7 @@
       },
       //LEVERS ================================================================
       {
-        "name": "LEVER_FORTRESS_CENTRAL_SHORTCUT",
+        "name": "LEVER_FORTRESS_CENTRAL_SHORTCUT", //confirmed
         "access_rules": [
           "$FortressGateAccess, LEVER_FORTRESS_MAIN_GATE"
         ],
@@ -2733,7 +2737,7 @@
         ]
       },
       {
-        "name": "LEVER_FORTRESS_MAIN_GATE",
+        "name": "LEVER_FORTRESS_MAIN_GATE", //confirmed
         "access_rules": [
           "$FortressGateAccess"
         ],
@@ -2747,7 +2751,7 @@
         ]
       },
       {
-        "name": "LEVER_FORTRESS_BOMB",
+        "name": "LEVER_FORTRESS_BOMB", //confirmed
         "access_rules": [
           "$FortressInnerAccess"
         ],
@@ -2761,7 +2765,7 @@
         ]
       },
       {
-        "name": "LEVER_FORTRESS_STATUE",
+        "name": "LEVER_FORTRESS_STATUE", //confirmed
         "access_rules": [
           "$FloodedFortressFrontAccess"
         ],
@@ -2775,7 +2779,7 @@
         ]
       },
       {
-        "name": "LEVER_FORTRESS_WATCHTOWER_LOWER",
+        "name": "LEVER_FORTRESS_WATCHTOWER_LOWER", //confirmed
         "access_rules": [
           "$FloodedFortressFrontAccess",
           "$FortressWatchtowerAccess"
@@ -2790,7 +2794,7 @@
         ]
       },
       {
-        "name": "LEVER_FORTRESS_NORTH_WEST",
+        "name": "LEVER_FORTRESS_NORTH_WEST", //confirmed
         "access_rules": [
           "$FortressInnerAccess"
         ],
@@ -2804,7 +2808,7 @@
         ]
       },
       {
-        "name": "LEVER_FORTRESS_PRE_MAIN_GATE",
+        "name": "LEVER_FORTRESS_PRE_MAIN_GATE", //confirmed
         "access_rules": [
           "$FloodedFortressFrontAccess, LEVER_FORTRESS_STATUE",
           "$FortressGateAccess, LEVER_FORTRESS_PRE_MAIN_GATE"
@@ -2819,7 +2823,7 @@
         ]
       },
       {
-        "name": "LEVER_FORTRESS_WATCHTOWER_UPPER",
+        "name": "LEVER_FORTRESS_WATCHTOWER_UPPER", //confirmed
         "access_rules": [
           "$FortressWatchtowerAccess"
         ],
@@ -2833,7 +2837,7 @@
         ]
       },
       {
-        "name": "LEVER_FORTRESS_BRIDGE",
+        "name": "LEVER_FORTRESS_BRIDGE", //confirmed
         "access_rules": [
           "$FortressInnerAccess"          
         ],
@@ -2848,7 +2852,7 @@
       },
       // DOOR===========================================================================
       {
-        "name": "FLOODED_FORTRESS_DOOR",
+        "name": "FLOODED_FORTRESS_DOOR", //confirmed
         "access_rules": [
           "$FortressGateAccess"
         ],
@@ -2865,10 +2869,10 @@
   },
   //-----------------------------------------------------------------------------------------
   {
-    "name": "Throne_of_the_Frog_King",//ALL ITEMS COMPLETE
+    "name": "Throne_of_the_Frog_King", //confirmed
     "children": [
       {
-        "name": "Throne Room Door",
+        "name": "Throne Room Door", //confirmed
         "access_rules": [
           "$ThroneRoomAccess"
         ],
@@ -2882,7 +2886,7 @@
         ]
       },
       {
-        "name": "Frog King",
+        "name": "Frog King", //confirmed
         "access_rules": [
           "$ThroneRoomAccess"
         ],
@@ -2896,7 +2900,7 @@
         ]
       },
       {
-        "name": "Giant Arrowhead",
+        "name": "Giant Arrowhead", //confirmed
         "access_rules": [
           "$ThroneRoomAccess"
         ],
@@ -2913,10 +2917,10 @@
   },
   //-----------------------------------------------------------------------------------------
   {
-    "name": "Stranded_Sailor_Caves",
+    "name": "Stranded_Sailor_Caves", //confirmed
     "children": [
       {
-        "name": "SEED_BETWEEN_CEMETERY_AND_SAILOR",
+        "name": "SEED_BETWEEN_CEMETERY_AND_SAILOR", //confirmed
         "access_rules": [
           "$StrandedSailorCavesAccess"
         ],
@@ -2930,7 +2934,7 @@
         ]
       },
       {
-        "name": "TOKEN_OF_DEATH",
+        "name": "TOKEN_OF_DEATH", //confirmed
         "access_rules": [
           "$StrandedSailorCavesAccess, hookshot"
         ],
@@ -2944,7 +2948,7 @@
         ]
       },
       {
-        "name": "LEVER_HOOKSHOT_SILENT_SERVANT",
+        "name": "LEVER_HOOKSHOT_SILENT_SERVANT", //confirmed
         "access_rules": [
           "$StrandedSailorCavesAccess, hookshot"
         ],
@@ -2958,7 +2962,7 @@
         ]
       },
       {
-        "name": "HOOKSHOT_SILENT_SERVANT",
+        "name": "HOOKSHOT_SILENT_SERVANT", //confirmed
         "access_rules": [
           "$StrandedSailorCavesAccess, LEVER_HOOKSHOT_SILENT_SERVANT"
         ],
@@ -2975,11 +2979,11 @@
   },
   //-----------------------------------------------------------------------------------------
   {
-    "name": "stranded_sailor",
+    "name": "stranded_sailor", //confirmed
     "children": [
       //WEAPONS ==============================================
       {
-        "name": "Reaper Greatsword",
+        "name": "Reaper Greatsword", //confirmed
         "access_rules": [
           "$StrandedSailorHookshot, LEVER_SAILOR_GREATSWORD_GATE"
         ],
@@ -2994,7 +2998,7 @@
       },
       //SEEDS==================================================
       {
-        "name": "SEED_SAILOR_UPPER",
+        "name": "SEED_SAILOR_UPPER", //confirmed
         "access_rules": [
           "$StrandedSailorUpper"
         ],
@@ -3009,7 +3013,7 @@
       },
       //SHRINES==================================================
       {
-        "name": "MAGIC_SHRINE_SAILOR_TURNCAM",
+        "name": "MAGIC_SHRINE_SAILOR_TURNCAM", //confirmed
         "access_rules": [
           "$StrandedSailorUpper"
         ],
@@ -3018,12 +3022,12 @@
           {
             "map": "stranded_sailor",
             "x": 298,
-            "y": 187
+            "y": 137
           }
         ]
       },
       {
-        "name": "HEART_SHRINE_HOOKSHOT_ARENA",
+        "name": "HEART_SHRINE_HOOKSHOT_ARENA", //confirmed
         "access_rules": [
           "$StrandedSailorHookshot"
         ],
@@ -3038,7 +3042,7 @@
       },
       //SOUL ORB =================================================
       {
-        "name": "SOUL_ORB_SAILOR_TURNCAM",
+        "name": "SOUL_ORB_SAILOR_TURNCAM", //confirmed
         "access_rules": [
           "$StrandedSailorUpper"
         ],
@@ -3053,7 +3057,7 @@
       },
       //Shinies ==================================================
       {
-        "name": "GRUNTS_OLD_MASK",
+        "name": "GRUNTS_OLD_MASK", //confirmed
         "access_rules": [
           "$StrandedSailorAccess"
         ],
@@ -3067,7 +3071,7 @@
         ]
       },
       {
-        "name": "CAPTAINS_LOG",
+        "name": "CAPTAINS_LOG", //confirmed
         "access_rules": [
           "$StrandedSailorAccess"
         ],
@@ -3081,7 +3085,7 @@
         ]
       },
       {
-        "name": "INK_COVERED_TEDDY_BEAR",
+        "name": "INK_COVERED_TEDDY_BEAR", //confirmed
         "access_rules": [
           "$StrandedSailorHookshot"
         ],
@@ -3096,7 +3100,7 @@
       },
       //Lever ==================================================
       {
-        "name": "LEVER_SAILOR_TURNCAM_UPPER",
+        "name": "LEVER_SAILOR_TURNCAM_UPPER", //confirmed
         "access_rules": [
           "$StrandedSailorUpper"
         ],
@@ -3110,7 +3114,7 @@
         ]
       },
       {
-        "name": "LEVER_SAILOR_TURNCAM_LOWER",
+        "name": "LEVER_SAILOR_TURNCAM_LOWER", //confirmed
         "access_rules": [
           "$StrandedSailorUpper"
         ],
@@ -3124,7 +3128,7 @@
         ]
       },
       {
-        "name": "LEVER_SAILOR_GREATSWORD_GATE",
+        "name": "LEVER_SAILOR_GREATSWORD_GATE", //confirmed
         "access_rules": [
           "$StrandedSailorHookshot"
         ],
@@ -3139,7 +3143,7 @@
       },
       //DOOR ==================================================
       {
-        "name": "STRANDED_SAILOR_DOOR",
+        "name": "STRANDED_SAILOR_DOOR", //confirmed
         "access_rules": [
           "$StrandedSailorAccess"
         ],
@@ -3156,11 +3160,11 @@
   },
   //-----------------------------------------------------------------------------------------
   {
-    "name": "castle_lockstone",
+    "name": "castle_lockstone", //confirmed
     "children": [
       //SEEDS ==========================================================================
       {
-        "name": "SEED_LOCKSTONE_SOUL_DOOR",
+        "name": "SEED_LOCKSTONE_SOUL_DOOR", //confirmed
         "access_rules": [
           "$LockstoneCenterAccess"
         ],
@@ -3174,7 +3178,7 @@
         ]
       },
       {
-        "name": "SEED_LOCKSTONE_NORTH",
+        "name": "SEED_LOCKSTONE_NORTH", //confirmed
         "access_rules": [
           "$LockstoneCenterAccess"
         ],
@@ -3188,7 +3192,7 @@
         ]
       },
       {
-        "name": "SEED_LOCKSTONE_BEHIND_BARS",
+        "name": "SEED_LOCKSTONE_BEHIND_BARS", //confirmed
         "access_rules": [
           "$LockstoneCenterAccess, hookshot"
         ],
@@ -3202,7 +3206,7 @@
         ]
       },
       {
-        "name": "SEED_LOCKSTONE_ENTRANCE_WEST",
+        "name": "SEED_LOCKSTONE_ENTRANCE_WEST", //confirmed
         "access_rules": [
           "$LockstoneCenterAccess"
         ],
@@ -3216,7 +3220,7 @@
         ]
       },
       {
-        "name": "SEED_LOCKSTONE_UPPER_EAST",
+        "name": "SEED_LOCKSTONE_UPPER_EAST", //confirmed
         "access_rules": [
           "$LockstoneCenterAccess"
         ],
@@ -3231,7 +3235,7 @@
       },
       // SHRINES ========================================================
       {
-        "name": "MAGIC_SHRINE_LOCKSTONE_SECRET_WEST",
+        "name": "MAGIC_SHRINE_LOCKSTONE_SECRET_WEST", //confirmed
         "access_rules": [
           "$LockstoneCenterAccess, hookshot"
         ],
@@ -3246,7 +3250,7 @@
       },
       // SOUL ORBS =======================================================
       {
-        "name": "SOUL_ORB_NORTH_LOCKSTONE_SEWER",
+        "name": "SOUL_ORB_NORTH_LOCKSTONE_SEWER", //confirmed
         "access_rules": [
           "$LockstoneCenterAccess"
         ],
@@ -3260,7 +3264,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_LOCKSTONE_HOOKSHOT_NORTH",
+        "name": "SOUL_ORB_LOCKSTONE_HOOKSHOT_NORTH", //confirmed
         "access_rules": [
           "$LockstoneCenterAccess, hookshot"
         ],
@@ -3274,7 +3278,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_WEST_LOCKSTONE_SEWER",
+        "name": "SOUL_ORB_WEST_LOCKSTONE_SEWER", //confirmed
         "access_rules": [
           "$LockstoneCenterAccess"
         ],
@@ -3289,7 +3293,7 @@
       },
       //KEYS =======================================================================
       {
-        "name": "KEY_LOCKSTONE_NORTH",
+        "name": "KEY_LOCKSTONE_NORTH", //confirmed
         "access_rules": [
           "$LockstoneCenterAccess"
         ],
@@ -3303,7 +3307,7 @@
         ]
       },
       {
-        "name": "KEY_LOCKSTONE_WEST",
+        "name": "KEY_LOCKSTONE_WEST", //confirmed
         "access_rules": [
           "$LockstoneCenterAccess, hookshot"
         ],
@@ -3318,7 +3322,7 @@
       },
       // SHINIES ===========================================================
       {
-        "name": "ANCIENT_CROWN",
+        "name": "ANCIENT_CROWN", //confirmed
         "access_rules": [
           "$LockstoneCenterAccess"
         ],
@@ -3332,7 +3336,7 @@
         ]
       },
       {
-        "name": "DEATHS_CONTRACT",
+        "name": "DEATHS_CONTRACT", //confirmed
         "access_rules": [
           "$LockstoneCenterAccess, LEVER_LOCKSTONE_EAST_START_SHORTCUT",
           "$LockstoneCenterAccess, hookshot, fire, LEVER_LOCKSTONE_VERTICAL_LASER_PUZZLE"
@@ -3348,7 +3352,7 @@
       },
       // LEVERS =================================================================
       {
-        "name": "LEVER_LOCKSTONE_EAST_START_SHORTCUT",
+        "name": "LEVER_LOCKSTONE_EAST_START_SHORTCUT", //confirmed
         "access_rules": [
           "$LockstoneCenterAccess, LEVER_LOCKSTONE_EAST_START_SHORTCUT",
           "$LockstoneCenterAccess, hookshot, fire, LEVER_LOCKSTONE_VERTICAL_LASER_PUZZLE"
@@ -3363,9 +3367,10 @@
         ]
       },
       {
-        "name": "LEVER_LOCKSTONE_ENTRANCE",
+        "name": "LEVER_LOCKSTONE_ENTRANCE", //confirmed
         "access_rules": [
           "$LockstoneCenterAccess, LEVER_LOCKSTONE_ENTRANCE",
+          "$LockstoneCenterAccess, LEVER_LOCKSTONE_DUAL_LASER_PUZZLE",
           "$StrandedSailorUpper"
         ],
         "sections": [{}],
@@ -3378,7 +3383,7 @@
         ]
       },
       {
-        "name": "LEVER_LOCKSTONE_WEST_UPPER",
+        "name": "LEVER_LOCKSTONE_WEST_UPPER", //confirmed
         "access_rules": [
           "$LockstoneCenterAccess"
         ],
@@ -3392,9 +3397,10 @@
         ]
       },
       {
-        "name": "LEVER_LOCKSTONE_UPPER_SHORTCUT",
+        "name": "LEVER_LOCKSTONE_UPPER_SHORTCUT", //confirmed
         "access_rules": [
-          "$LockstoneCenterAccess, hookshot"
+          "$LockstoneCenterAccess, hookshot",
+          "$LockstoneCenterAccess, LEVER_LOCKSTONE_UPPER_SHORTCUT"
         ],
         "sections": [{}],
         "map_locations": [
@@ -3406,7 +3412,7 @@
         ]
       },
       {
-        "name": "LEVER_LOCKSTONE_VERTICAL_LASER_PUZZLE",
+        "name": "LEVER_LOCKSTONE_VERTICAL_LASER_PUZZLE", //confirmed
         "access_rules": [
           "$LockstoneCenterAccess, LEVER_LOCKSTONE_TRACKING_BEAM_PUZZLE"
         ],
@@ -3420,7 +3426,7 @@
         ]
       },
       {
-        "name": "LEVER_LOCKSTONE_TRACKING_BEAM_PUZZLE",
+        "name": "LEVER_LOCKSTONE_TRACKING_BEAM_PUZZLE", //confirmed
         "access_rules": [
           "$LockstoneCenterAccess"
         ],
@@ -3434,7 +3440,7 @@
         ]
       },
       {
-        "name": "LEVER_LOCKSTONE_UPPER_PUZZLE",
+        "name": "LEVER_LOCKSTONE_UPPER_PUZZLE", //confirmed
         "access_rules": [
           "$LockstoneCenterAccess, hookshot"
         ],
@@ -3448,7 +3454,7 @@
         ]
       },
       {
-        "name": "LEVER_LOCKSTONE_NORTH_PUZZLE",
+        "name": "LEVER_LOCKSTONE_NORTH_PUZZLE", //confirmed
         "access_rules": [
           "$LockstoneCenterAccess"
         ],
@@ -3462,7 +3468,7 @@
         ]
       },
       {
-        "name": "LEVER_LOCKSTONE_SHRINE",
+        "name": "LEVER_LOCKSTONE_SHRINE", //confirmed
         "access_rules": [
           "$LockstoneCenterAccess, hookshot"
         ],
@@ -3476,7 +3482,7 @@
         ]
       },
       {
-        "name": "LEVER_LOCKSTONE_DUAL_LASER_PUZZLE",
+        "name": "LEVER_LOCKSTONE_DUAL_LASER_PUZZLE", //confirmed
         "access_rules": [
           "$LockstoneCenterAccess"
         ],
@@ -3490,7 +3496,7 @@
         ]
       },
       {
-        "name": "LEVER_LOCKSTONE_HOOKSHOT_PUZZLE",
+        "name": "LEVER_LOCKSTONE_HOOKSHOT_PUZZLE", //confirmed
         "access_rules": [
           "$LockstoneCenterAccess, hookshot"
         ],
@@ -3504,7 +3510,7 @@
         ]
       },
       {
-        "name": "LEVER_LOCKSTONE_UPPER_DUAL_LASER_PUZZLE",
+        "name": "LEVER_LOCKSTONE_UPPER_DUAL_LASER_PUZZLE", //confirmed
         "access_rules": [
           "$LockstoneCenterAccess, hookshot, LEVER_LOCKSTONE_UPPER_PUZZLE"
         ],
@@ -3519,7 +3525,7 @@
       },
       // DOOR ================================================
       {
-        "name": "CASTLE_LOCKSTONE_DOOR",
+        "name": "CASTLE_LOCKSTONE_DOOR", //confirmed
         "access_rules": [
           "$LockstoneCenterAccess",
           "CASTLE_LOCKSTONE_DOOR"
@@ -3535,7 +3541,7 @@
       },
       //CROWS ================================================================
       {
-        "name": "CROW_LOCKSTONE_EAST",
+        "name": "CROW_LOCKSTONE_EAST", //confirmed
         "access_rules": [
           "$LockstoneCenterAccess, LEVER_LOCKSTONE_TRACKING_BEAM_PUZZLE, LEVER_LOCKSTONE_VERTICAL_LASER_PUZZLE",
           "$LockstoneCenterAccess, hookshot, LEVER_LOCKSTONE_UPPER_PUZZLE, LEVER_LOCKSTONE_UPPER_DUAL_LASER_PUZZLE"
@@ -3550,7 +3556,7 @@
         ]
       },
       {
-        "name": "CROW_LOCKSTONE_WEST",
+        "name": "CROW_LOCKSTONE_WEST", //confirmed
         "access_rules": [
           "$LockstoneCenterAccess"
         ],
@@ -3564,7 +3570,7 @@
         ]
       },
       {
-        "name": "CROW_LOCKSTONE_WEST_LOCKED",
+        "name": "CROW_LOCKSTONE_WEST_LOCKED", //confirmed
         "access_rules": [
           "$LockstoneCenterAccess, PINK_KEY"
         ],
@@ -3578,7 +3584,7 @@
         ]
       },
       {
-        "name": "CROW_LOCKSTONE_SOUTH_WEST",
+        "name": "CROW_LOCKSTONE_SOUTH_WEST", //confirmed
         "access_rules": [
           "$LockstoneCenterAccess, LEVER_LOCKSTONE_DUAL_LASER_PUZZLE"
         ],
@@ -3595,11 +3601,11 @@
   },
   //-----------------------------------------------------------------------------------------
   {
-    "name": "camp_of_the_free_crows",
+    "name": "camp_of_the_free_crows", //Door does not get checked off
     "children": [
       //SEEDS ====================================================================
       {
-        "name": "SEED_CAMP_LEDGE_WITH_HUTS",
+        "name": "SEED_CAMP_LEDGE_WITH_HUTS", //confirmed
         "access_rules": [
           "$CampAccess"
         ],
@@ -3613,7 +3619,7 @@
         ]
       },
       {
-        "name": "SEED_CAMP_STALL",
+        "name": "SEED_CAMP_STALL", //confirmed
         "access_rules": [
           "$CampAccess"
         ],
@@ -3627,7 +3633,7 @@
         ]
       },
       {
-        "name": "SEED_CAMP_ROOFTOPS",
+        "name": "SEED_CAMP_ROOFTOPS", //confirmed
         "access_rules": [
           "$CampAccess"
         ],
@@ -3642,7 +3648,7 @@
       },
       //shrine ====================================================================
       {
-        "name": "HEART_SHRINE_CAMP_ICE_SKATING",
+        "name": "HEART_SHRINE_CAMP_ICE_SKATING", //confirmed
         "access_rules": [
           "$CampAccess, PINK_KEY, hookshot",
           "$WatchtowersDoorAccess, hookshot"
@@ -3658,7 +3664,7 @@
       },
       //Soul orbs ====================================================================
       {
-        "name": "SOUL_ORB_CAMP_ROOFTOPS",
+        "name": "SOUL_ORB_CAMP_ROOFTOPS", //confirmed
         "access_rules": [
           "$CampAccess, hookshot"
         ],
@@ -3672,7 +3678,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_CAMP_BROKEN_BRIDGE",
+        "name": "SOUL_ORB_CAMP_BROKEN_BRIDGE", //confirmed
         "access_rules": [
           "$CampAccess, hookshot"
         ],
@@ -3686,7 +3692,7 @@
         ]
       },
       {
-        "name": "SOUL_ORB_LOCKSTONE_EXIT",
+        "name": "SOUL_ORB_LOCKSTONE_EXIT", //confirmed
         "access_rules": [
           "$CampAccess, hookshot",
           "$LockstoneExitElevator"
@@ -3702,7 +3708,7 @@
       },
       //KEY ====================================================================
       {
-        "name": "KEY_CAMP_OF_THE_FREE_CROWS",
+        "name": "KEY_CAMP_OF_THE_FREE_CROWS", //confirmed
         "access_rules": [
           "$CampAccess"
         ],
@@ -3717,7 +3723,7 @@
       },
       //SHINIES ====================================================================
       {
-        "name": "SHINY_MEDALLION",
+        "name": "SHINY_MEDALLION", //confirmed
         "access_rules": [    
           "$CampAccess, bomb",
           "$WatchtowersDoorAccess, bomb"
@@ -3733,7 +3739,7 @@
       },
       //DOOR ====================================================================
       {
-        "name": "CAMP_OF_THE_FREE_CROWS_DOOR",
+        "name": "CAMP_OF_THE_FREE_CROWS_DOOR", //does not get checked off
         "access_rules": [
           "$CampAccess"
         ],
@@ -3750,11 +3756,11 @@
   },
   //-----------------------------------------------------------------------------------------
   {
-    "name": "old_watchtowers",
+    "name": "old_watchtowers", //confirmed
     "children": [
       //SEEDS ======================================================
       {
-        "name": "SEED_WATCHTOWERS_ICE_SKATING",
+        "name": "SEED_WATCHTOWERS_ICE_SKATING", //confirmed
         "access_rules": [
           "$WatchtowersTwoAccess"
         ],
@@ -3768,7 +3774,7 @@
         ]
       },
       {
-        "name": "SEED_WATCHTOWERS_TABLET_DOOR",
+        "name": "SEED_WATCHTOWERS_TABLET_DOOR", //confirmed
         "access_rules": [
           "$WatchtowersAccess"
         ],
@@ -3782,7 +3788,7 @@
         ]
       },
       {
-        "name": "SEED_WATCHTOWERS_ARCHER_PLATFORM",
+        "name": "SEED_WATCHTOWERS_ARCHER_PLATFORM", //confirmed
         "access_rules": [
           "$WatchtowersAccess"
         ],
@@ -3796,7 +3802,7 @@
         ]
       },
       {
-        "name": "SEED_WATCHTOWERS_BOXES",
+        "name": "SEED_WATCHTOWERS_BOXES", //confirmed
         "access_rules": [
           "$WatchtowersAccess"
         ],
@@ -3811,7 +3817,7 @@
       },
       //Soul Orb ======================================================
       {
-        "name": "SOUL_ORB_WATCHTOWERS_BEHIND_BARB_ELEVATOR",
+        "name": "SOUL_ORB_WATCHTOWERS_BEHIND_BARB_ELEVATOR", //confirmed
         "access_rules": [
           "$WatchtowersAccess"
         ],
@@ -3826,7 +3832,7 @@
       },
       //SHINY ======================================================
       {
-        "name": "MYSTERIOUS_LOCKET",
+        "name": "MYSTERIOUS_LOCKET", //confirmed
         "access_rules": [
           "$WatchtowersArenaAccess, $HasNightAccess"
         ],
@@ -3841,7 +3847,7 @@
       },
       //TABLETS ======================================================
       {
-        "name": "BLUE_ANCIENT_TABLET_OF_KNOWLEDGE",
+        "name": "BLUE_ANCIENT_TABLET_OF_KNOWLEDGE", //confirmed
         "access_rules": [
           "$WatchtowersTwoAccess, $HasNightAccess, fire"
         ],
@@ -3855,7 +3861,7 @@
         ]
       },
       {
-        "name": "WATCHTOWERS_OWL",
+        "name": "WATCHTOWERS_OWL", //confirmed
         "access_rules": [
           "$WatchtowersTwoAccess, $HasNightAccess"
         ],
@@ -3870,7 +3876,7 @@
       },
       //LEVERS ======================================================
       {
-        "name": "LEVER_WATCHTOWERS_BEFORE_ICE_ARENA",
+        "name": "LEVER_WATCHTOWERS_BEFORE_ICE_ARENA", //confirmed
         "access_rules": [
           "$WatchtowersAccess"
         ],
@@ -3884,7 +3890,7 @@
         ]
       },
       {
-        "name": "LEVER_WATCHTOWERS_AFTER_ICE_SKATING",
+        "name": "LEVER_WATCHTOWERS_AFTER_ICE_SKATING", //confirmed
         "access_rules": [
           "$WatchtowersTwoAccess, $HasNightAccess"
         ],
@@ -3898,7 +3904,7 @@
         ]
       },
       {
-        "name": "LEVER_WATCHTOWERS_AFTER_BOOMERS",
+        "name": "LEVER_WATCHTOWERS_AFTER_BOOMERS", //confirmed
         "access_rules": [
           "$WatchtowersAccess"
         ],
@@ -3913,7 +3919,7 @@
       },
       //DOOR ======================================================
       {
-        "name": "OLD_WATCHTOWERS_DOOR",
+        "name": "OLD_WATCHTOWERS_DOOR", //confirmed
         "access_rules": [
           "$WatchtowersDoorAccess"
         ],
@@ -3930,10 +3936,10 @@
   },
   //-----------------------------------------------------------------------------------------
   {
-    "name": "bettys_lair",//ALL ITEMS COMPLETE
+    "name": "bettys_lair", //confirmed
     "children": [
       {
-        "name": "Betty",
+        "name": "Betty", //confirmed
         "access_rules": [
           "$WatchtowersArenaAccess"
         ],
@@ -3947,7 +3953,7 @@
         ]
       },
       {
-        "name": "Betty's Lair Door",
+        "name": "Betty's Lair Door", //confirmed
         "access_rules": [
           "$WatchtowersArenaAccess"
         ],
