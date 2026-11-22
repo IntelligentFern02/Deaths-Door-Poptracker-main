@@ -12,6 +12,7 @@ This pack would not have been possible without the work of many others. I just c
 -Cyb3RGER for the template pack
 -SpR3AD for the map renderings
 -OnlySpaghettiCode, Stripes007, and OmegaZeron For their tech support in the ['Unofficial' PopTracker Discord Server](https://discord.com/invite/gwThqMCPgK).
+-No AI was used in my process. This is all hand-crafted jank.
 
 ## License
 Permission is hereby granted, free of charge, to any
